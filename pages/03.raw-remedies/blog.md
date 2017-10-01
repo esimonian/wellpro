@@ -12,7 +12,8 @@ hide_git_sync_repo_link: true
 external_links:
     target: _blank
 body_classes: 'header-image fullwidth'
-header_image_height: 500
+header:
+    header_image_height: 500
 content:
     items: '@self.children'
     limit: 5
