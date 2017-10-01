@@ -1,5 +1,6 @@
 ---
 title: Wellness
+published: true
 hide_git_sync_repo_link: false
 content:
     items: '@self.children'
