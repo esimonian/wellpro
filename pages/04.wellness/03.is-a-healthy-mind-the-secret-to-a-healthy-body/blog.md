@@ -5,6 +5,8 @@ date: '01-08-2017 21:26'
 taxonomy:
     category:
         - Wellness
+    tag:
+        - health
 hide_git_sync_repo_link: true
 external_links:
     target: _blank
