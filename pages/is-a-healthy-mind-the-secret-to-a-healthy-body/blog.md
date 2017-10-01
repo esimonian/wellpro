@@ -1,6 +1,13 @@
 ---
 title: 'IS A HEALTHY MIND THE SECRET TO A HEALTHY BODY?'
-hide_git_sync_repo_link: false
+published: true
+date: '01-08-2017 21:26'
+taxonomy:
+    category:
+        - Wellness
+hide_git_sync_repo_link: true
+external_links:
+    target: _blank
 content:
     items: '@self.children'
     limit: 5
