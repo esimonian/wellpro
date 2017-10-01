@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Blog
 hide_git_sync_repo_link: true
 content:
     items: '@self.children'
