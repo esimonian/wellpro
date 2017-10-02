@@ -1,5 +1,5 @@
 ---
-title: 'IS A HEALTHY MIND THE SECRET TO A HEALTHY BODY?'
+title: 'Is a Healthy Mind the Secret to a Healthy Body'
 published: true
 date: '01-08-2017 21:26'
 taxonomy:
