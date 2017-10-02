@@ -13,12 +13,12 @@ external_links:
     target: _blank
 content:
     items: '@self.children'
-    limit: 5
+    limit: '5'
     order:
         by: date
         dir: desc
-    pagination: true
-    url_taxonomy_filters: true
+    pagination: '1'
+    url_taxonomy_filters: '1'
 ---
 
 According to Shaffer-Hudson, a study of adolescents found that the overall perceived good physical health was strongly linked to life satisfaction and feeling excited, strong and proud. Those who said they felt lonelier, guiltier, more anxious and depressed and who were more likely to display undesirable behaviors reported being less healthy physically.
