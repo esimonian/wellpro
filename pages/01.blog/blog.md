@@ -1,5 +1,4 @@
 ---
-title: Blog
 hide_git_sync_repo_link: true
 slug: blog
 content:
@@ -12,4 +11,3 @@ content:
     url_taxonomy_filters: true
 ---
 
-Welcome
