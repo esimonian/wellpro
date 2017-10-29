@@ -1,0 +1,29 @@
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+p a:hover:not(.button) {
+    color: #0e6e90;
+    text-decoration: underline;
+}
+
+.tags a:hover {
+    background: #1BB3E9;
+    color: #FFFFFF;
+}
+
+.pagination a:hover {
+    background: #1BB3E9;
+    color: #FFFFFF;
+}
+
+div#breadcrumbs {
+  padding-left: 0; }
+  @media only all and (max-width: 47.938em) {
+    div#breadcrumbs {
+      display: block; } }
