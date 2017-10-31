@@ -1,295 +1,295 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1508473892,
-    'checksum' => '9e9c0994227f73a409110b468c1bc11e',
+    'timestamp' => 1509423686,
+    'checksum' => '46fa1b0d0d2344da29fe2f565b8eabf1',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321188
             ]
         ],
         'user/plugins' => [
-            'plugins/form' => [
-                'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1506826015
-            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1506826000
-            ],
-            'plugins/simplesearch' => [
-                'file' => 'user/plugins/simplesearch/languages.yaml',
-                'modified' => 1506826717
-            ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/languages.yaml',
-                'modified' => 1506826712
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1506689902
+                'modified' => 1509321206
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1506689902
+                'modified' => 1509319815
             ],
             'plugins/external_links' => [
                 'file' => 'user/plugins/external_links/languages.yaml',
-                'modified' => 1506826681
+                'modified' => 1509319815
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/languages.yaml',
+                'modified' => 1509321210
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/languages.yaml',
+                'modified' => 1509321217
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/languages.yaml',
+                'modified' => 1509319816
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/languages.yaml',
+                'modified' => 1509319816
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1506826008
+                'modified' => 1509321201
             ]
         ],
         'user/plugins/admin-addon-user-manager/languages' => [
             'en' => [
                 'file' => 'user/plugins/admin-addon-user-manager/languages/en.yaml',
-                'modified' => 1506838489
+                'modified' => 1509319815
             ]
         ]
     ],
@@ -1007,6 +1007,57 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'CASE_INSENSITIVE_URLS' => 'Case Insensitive URLs',
                 'CASE_INSENSITIVE_URLS_HELP' => 'Enables Grav routing to locate resources regardless of text case.'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form',
+                'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
+                'EMAIL_FOOTER' => 'GetGrav.org'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'External Links',
+                    'PLUGIN_STATUS' => 'Plugin status',
+                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
+                    'BUILTIN_CSS' => 'Use built in CSS',
+                    'WEIGHT' => 'Order of execution',
+                    'SETTINGS' => 'Settings',
+                    'CONTENT' => 'Content',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Exclusion',
+                        'SECTION_HELP' => 'Exclude links with a specific class or domains from being recognized as external links.',
+                        'CLASSES' => 'Exclude all links with this class',
+                        'CLASSES_HELP' => 'Comma separated list.',
+                        'DOMAINS' => 'A list of domains to be excluded',
+                        'DOMAINS_HELP' => 'Comma separated list of domains e.g. _localhost/*_  (any regular expression can be used)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Links',
+                        'SECTION_HELP' => 'Set links starting with <code>www.</code> and within the list of allowed schemes as external.',
+                        'WWW' => 'Link WWW',
+                        'WWW_HELP' => 'Automatically link any hostname that starts with \'www.\' as external',
+                        'SCHEMES' => 'Allowed schemes',
+                        'SCHEMES_HELP' => 'List of allowed schemes'
+                    ],
+                    'PROCESS' => 'Filter external links on the page',
+                    'TITLE' => 'Show default title for external links',
+                    'TITLE_MESSAGE' => 'This link will take you to an external web site. We are not responsible for their content.',
+                    'NO_FOLLOW' => 'Add <code>rel="nofollow"</code> to all external links',
+                    'TARGET' => 'Set target attribute of the link.',
+                    'TARGET_BLANK' => '_blank | Load in a new window',
+                    'TARGET_SELF' => '_self | Load in the same frame as it was clicked',
+                    'TARGET_PARENT' => '_parent | Load in the parent frameset',
+                    'TARGET_TOP' => '_top | Load in the full body of the window',
+                    'MODE' => 'Mode',
+                    'MODE_HELP' => 'active = process and parse all links; passive = parse links, but don\'t set CSS classes',
+                    'MODE_ACTIVE' => 'Active - Process and parse all links',
+                    'MODE_PASSIVE' => 'Passive - Parse links, but don\'t set CSS classes'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
                 'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
@@ -1045,51 +1096,15 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'YES' => 'Yes',
                 'NO' => 'No',
                 'REFRESH_PREVENTION' => 'Refresh prevention',
-                'REFRESH_PREVENTION_HELP' => 'Use the form\'s unique ID to ensure the same form is not reprocessed when refreshing the browser'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Please configure a \'from\' address in the Email Plugin settings, or in the form',
-                'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
-                'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Search...',
-                'SEARCH_RESULTS' => 'Search Results',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
-                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Basic Settings',
+                'REFRESH_PREVENTION_HELP' => 'Use the form\'s unique ID to ensure the same form is not reprocessed when refreshing the browser',
                 'LIMIT' => 'Limit',
-                'LIMIT_HELP' => 'The number of related pages to display',
-                'ORDER' => 'Order',
-                'ORDER_BY' => 'Ordery by',
-                'SHOW_SCORE' => 'Show score',
-                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
-                'ITEMS' => 'Items',
-                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
-                'PAGE_IN_FILTER' => 'Page \'in\' filter',
-                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
-                'EXPLICIT_PROCESS' => 'Process explicit pages',
-                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
-                'EXPLICIT_SCORE' => 'Explicit page score',
-                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
-                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
-                'TAXONOMY' => 'Taxonomy',
-                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
-                'CONTENT_MATCH' => 'Content Type Matching',
-                'CONTENT_PROCESS' => 'Content-content',
-                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
-                'ADVANCED' => 'Advanced',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
-                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
+                'LIMIT_HELP' => 'Maximum number of allowed files per field (multiple required)',
+                'FILESIZE' => 'Max Filesize',
+                'FILESIZE_HELP' => 'Maximum file size allowed (in MB), 0 = Use system default',
+                'AVOID_OVERWRITING' => 'Avoid overwriting',
+                'AVOID_OVERWRITING_HELP' => 'Prevent files with the same name to be overridden. Date prefix will be added',
+                'RANDOM_NAME' => 'Random name',
+                'RANDOM_NAME_HELP' => 'Generate a random 15 long string name for the uploaded files'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Username',
@@ -1200,49 +1215,42 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'ROUTE_PROFILE' => 'User profile route',
                 'ROUTE_ACTIVATE' => 'User activation route'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Basic Settings',
+                'LIMIT' => 'Limit',
+                'LIMIT_HELP' => 'The number of related pages to display',
+                'ORDER' => 'Order',
+                'ORDER_BY' => 'Ordery by',
+                'SHOW_SCORE' => 'Show score',
+                'SHOW_SCORE_HELP' => 'Toggle to determine if scores should be displayed in output',
+                'ITEMS' => 'Items',
+                'ITEMS_HELP' => 'Supports `@self`, `@page`, and `@taxonomy` based collections',
+                'PAGE_IN_FILTER' => 'Page \'in\' filter',
+                'PAGE_IN_FILTER_HELP' => 'Enabled if the current page must be in the filtered collection',
+                'EXPLICIT_PROCESS' => 'Process explicit pages',
+                'EXPLICIT_PROCESS_HELP' => 'Enable this explicit page matching',
+                'EXPLICIT_SCORE' => 'Explicit page score',
+                'EXPLICIT_SCORE_HELP' => 'A score ranging from (0 - 100) to give explicit pages a weight',
+                'TAXONOMY_MATCH' => 'Taxonomy Type Matching',
+                'TAXONOMY' => 'Taxonomy',
+                'TAXONOMY_HELP' => 'Which taxonomy type to use for page matching',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomy-taxonomy',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Enable taxonomy to taxonomy matching',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomy-content',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Enable taxonomy to Content matching',
+                'CONTENT_MATCH' => 'Content Type Matching',
+                'CONTENT_PROCESS' => 'Content-content',
+                'CONTENT_PROCESS_HELP' => 'Enable content to content matching (NOTE: Disable if you have lots of content)',
+                'ADVANCED' => 'Advanced',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomy-taxonomy score scale',
+                'CONTENT_SCORE_SCALE' => 'Taxonomy-content score scale'
             ],
-            'PLUGINS' => [
-                'EXTERNAL_LINKS' => [
-                    'PLUGIN_NAME' => 'External Links',
-                    'PLUGIN_STATUS' => 'Plugin status',
-                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
-                    'BUILTIN_CSS' => 'Use built in CSS',
-                    'WEIGHT' => 'Order of execution',
-                    'SETTINGS' => 'Settings',
-                    'CONTENT' => 'Content',
-                    'EXCLUDE' => [
-                        'SECTION' => 'Exclusion',
-                        'SECTION_HELP' => 'Exclude links with a specific class or domains from being recognized as external links.',
-                        'CLASSES' => 'Exclude all links with this class',
-                        'CLASSES_HELP' => 'Comma separated list.',
-                        'DOMAINS' => 'A list of domains to be excluded',
-                        'DOMAINS_HELP' => 'Comma separated list of domains e.g. _localhost/*_  (any regular expression can be used)'
-                    ],
-                    'LINKS' => [
-                        'SECTION' => 'Links',
-                        'SECTION_HELP' => 'Set links starting with <code>www.</code> and within the list of allowed schemes as external.',
-                        'WWW' => 'Link WWW',
-                        'WWW_HELP' => 'Automatically link any hostname that starts with \'www.\' as external',
-                        'SCHEMES' => 'Allowed schemes',
-                        'SCHEMES_HELP' => 'List of allowed schemes'
-                    ],
-                    'PROCESS' => 'Filter external links on the page',
-                    'TITLE' => 'Show default title for external links',
-                    'TITLE_MESSAGE' => 'This link will take you to an external web site. We are not responsible for their content.',
-                    'NO_FOLLOW' => 'Add <code>rel="nofollow"</code> to all external links',
-                    'TARGET' => 'Set target attribute of the link.',
-                    'TARGET_BLANK' => '_blank | Load in a new window',
-                    'TARGET_SELF' => '_self | Load in the same frame as it was clicked',
-                    'TARGET_PARENT' => '_parent | Load in the parent frameset',
-                    'TARGET_TOP' => '_top | Load in the full body of the window',
-                    'MODE' => 'Mode',
-                    'MODE_HELP' => 'active = process and parse all links; passive = parse links, but don\'t set CSS classes',
-                    'MODE_ACTIVE' => 'Active - Process and parse all links',
-                    'MODE_PASSIVE' => 'Passive - Parse links, but don\'t set CSS classes'
-                ]
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Search...',
+                'SEARCH_RESULTS' => 'Search Results',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -5190,6 +5198,55 @@ Sti: `%2$s`
                 'ERROR_SIMPLE' => 'Einfacher Fehler',
                 'ERROR_SYSTEM' => 'Systemfehler'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Fehler',
+                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'External Links',
+                    'PLUGIN_STATUS' => 'Plugin Status',
+                    'PLUGIN_STATUS_HELP' => 'Aktiviere das Plugin oder schalte es komplett ab.',
+                    'BUILTIN_CSS' => 'Verwende mitgeliefertes CSS',
+                    'WEIGHT' => 'Ausführungsreihenfolge',
+                    'SETTINGS' => 'Einstellungen',
+                    'CONTENT' => 'Inhalt',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Ausnahmen',
+                        'SECTION_HELP' => 'Setzt Links mit bestimmten Klassen oder Links von bestimmten Domains immer als intern.',
+                        'CLASSES' => 'Ignoriere Links mit diesen Klassen',
+                        'CLASSES_HELP' => 'Komma getrennte Liste',
+                        'DOMAINS' => 'Eine Liste von auszuschließenden Domains',
+                        'DOMAINS_HELP' => 'Komma getrennte Liste von Domains z.B. _localhost/*_ (jeder regulärer Ausdruck kann verwendet werden)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Links',
+                        'SECTION_HELP' => 'Sieht Links beginnend mit <code>www.</code> oder mit als extern markierten Protokollen als extern an.',
+                        'WWW' => 'Verlinkung (WWW)',
+                        'WWW_HELP' => 'Verlinke auch Links, die mit \'www.\' beginnen als extern',
+                        'SCHEMES' => 'Erlaubte Protokolle',
+                        'SCHEMES_HELP' => 'Liste von erlaubten Protokollen'
+                    ],
+                    'PROCESS' => 'Aktiviere <code>External Links</code> auf Seite',
+                    'TITLE' => 'Zeige Standardtexttitel für externe Links',
+                    'TITLE_MESSAGE' => 'Dieser Link führt auf eine externe Webseite für deren Inhalt wir nicht verantwortlich sind.',
+                    'NO_FOLLOW' => 'Fügt <code>rel="nofollow"</code> zu allen externen Links',
+                    'TARGET' => 'Setze "target" Attribut des Links.',
+                    'TARGET_BLANK' => '_blank - Öffne Link im neuen Fenster',
+                    'TARGET_SELF' => '_self - Öffne Link im gleichen Tab oder Seite',
+                    'TARGET_PARENT' => '_parent - Öffne Link im Elternfenster',
+                    'TARGET_TOP' => '_top - Öffne Link im ganzen Fenster',
+                    'MODE' => 'Modus',
+                    'MODE_HELP' => 'active = Zeichne externe Links aus; passive = Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen',
+                    'MODE_ACTIVE' => 'Aktiv - Zeichne externe Links aus',
+                    'MODE_PASSIVE' => 'Passiv - Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
                 'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
@@ -5201,48 +5258,6 @@ Sti: `%2$s`
                 'ACCEPT' => 'Erlaube MIME-Typen',
                 'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
                 'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Suche...',
-                'SEARCH_RESULTS' => 'Suchergebnisse',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'PLUGIN_STATUS' => 'Plugin-Status',
-                'BASICS' => 'Grundeinstellungen',
-                'LIMIT' => 'Angezeigt',
-                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
-                'ORDER' => 'Reihenfolge',
-                'ORDER_BY' => 'Sortiert nach',
-                'SHOW_SCORE' => 'Zeige Bewertung',
-                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
-                'ITEMS' => 'Elemente',
-                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
-                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
-                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
-                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
-                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
-                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
-                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
-                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
-                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
-                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
-                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
-                'ADVANCED' => 'Erweitert',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Benutzername',
@@ -5292,49 +5307,42 @@ Sti: `%2$s`
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein',
                 'WELCOME' => 'Willkommen'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Fehler',
-                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            'PLUGIN_REL_PAGES' => [
+                'PLUGIN_STATUS' => 'Plugin-Status',
+                'BASICS' => 'Grundeinstellungen',
+                'LIMIT' => 'Angezeigt',
+                'LIMIT_HELP' => 'Die Anzahl der angezeigten verwandten Seiten',
+                'ORDER' => 'Reihenfolge',
+                'ORDER_BY' => 'Sortiert nach',
+                'SHOW_SCORE' => 'Zeige Bewertung',
+                'SHOW_SCORE_HELP' => 'Umschalter, ob die Bewertung in der Ausgabe angezeigt werden soll',
+                'ITEMS' => 'Elemente',
+                'ITEMS_HELP' => 'Unterstützt `@self`, `@page`, und `@taxonomy` basierte Sammlungen (collections)',
+                'PAGE_IN_FILTER' => 'Seite \'drin\' Filter',
+                'PAGE_IN_FILTER_HELP' => 'Aktiviert, wenn die aktuelle Seite in der gefilterten Sammlung (collection) enthalten sein muss',
+                'EXPLICIT_PROCESS' => 'Verarbeite explizite Seiten',
+                'EXPLICIT_PROCESS_HELP' => 'Aktiviere diesen Abgleich der expliziten Seiten',
+                'EXPLICIT_SCORE' => 'Bewertung der expliziten Seiten',
+                'EXPLICIT_SCORE_HELP' => 'Eine Bewertung von (0 - 100) um expliziten Seiten eine Gewichtung zu geben',
+                'TAXONOMY_MATCH' => 'Abgleich der Taxonomie-Typen',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Welcher Taxonomie-Typ soll für den Seiten-Abgleich genutzt werden',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-Taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Taxonomie-Abgleich',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-Inhalt',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Aktiviere die Taxonomie für den Inhalts-Abgleich',
+                'CONTENT_MATCH' => 'Abgleich der Inhalts-Typen',
+                'CONTENT_PROCESS' => 'Inhalt-Inhalt',
+                'CONTENT_PROCESS_HELP' => 'Aktiviere den Inhalt-zu-Inhalt-Abgleich (Beachte: Deaktivieren bei viel Inhalt)',
+                'ADVANCED' => 'Erweitert',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-Taxonomie Bewertungsskala',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-Inhalt Bewertungsskala'
             ],
-            'PLUGINS' => [
-                'EXTERNAL_LINKS' => [
-                    'PLUGIN_NAME' => 'External Links',
-                    'PLUGIN_STATUS' => 'Plugin Status',
-                    'PLUGIN_STATUS_HELP' => 'Aktiviere das Plugin oder schalte es komplett ab.',
-                    'BUILTIN_CSS' => 'Verwende mitgeliefertes CSS',
-                    'WEIGHT' => 'Ausführungsreihenfolge',
-                    'SETTINGS' => 'Einstellungen',
-                    'CONTENT' => 'Inhalt',
-                    'EXCLUDE' => [
-                        'SECTION' => 'Ausnahmen',
-                        'SECTION_HELP' => 'Setzt Links mit bestimmten Klassen oder Links von bestimmten Domains immer als intern.',
-                        'CLASSES' => 'Ignoriere Links mit diesen Klassen',
-                        'CLASSES_HELP' => 'Komma getrennte Liste',
-                        'DOMAINS' => 'Eine Liste von auszuschließenden Domains',
-                        'DOMAINS_HELP' => 'Komma getrennte Liste von Domains z.B. _localhost/*_ (jeder regulärer Ausdruck kann verwendet werden)'
-                    ],
-                    'LINKS' => [
-                        'SECTION' => 'Links',
-                        'SECTION_HELP' => 'Sieht Links beginnend mit <code>www.</code> oder mit als extern markierten Protokollen als extern an.',
-                        'WWW' => 'Verlinkung (WWW)',
-                        'WWW_HELP' => 'Verlinke auch Links, die mit \'www.\' beginnen als extern',
-                        'SCHEMES' => 'Erlaubte Protokolle',
-                        'SCHEMES_HELP' => 'Liste von erlaubten Protokollen'
-                    ],
-                    'PROCESS' => 'Aktiviere <code>External Links</code> auf Seite',
-                    'TITLE' => 'Zeige Standardtexttitel für externe Links',
-                    'TITLE_MESSAGE' => 'Dieser Link führt auf eine externe Webseite für deren Inhalt wir nicht verantwortlich sind.',
-                    'NO_FOLLOW' => 'Fügt <code>rel="nofollow"</code> zu allen externen Links',
-                    'TARGET' => 'Setze "target" Attribut des Links.',
-                    'TARGET_BLANK' => '_blank - Öffne Link im neuen Fenster',
-                    'TARGET_SELF' => '_self - Öffne Link im gleichen Tab oder Seite',
-                    'TARGET_PARENT' => '_parent - Öffne Link im Elternfenster',
-                    'TARGET_TOP' => '_top - Öffne Link im ganzen Fenster',
-                    'MODE' => 'Modus',
-                    'MODE_HELP' => 'active = Zeichne externe Links aus; passive = Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen',
-                    'MODE_ACTIVE' => 'Aktiv - Zeichne externe Links aus',
-                    'MODE_PASSIVE' => 'Passiv - Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen'
-                ]
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Suche...',
+                'SEARCH_RESULTS' => 'Suchergebnisse',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -6443,6 +6451,10 @@ Pfad: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Desactivado de forma predeterminada. Cuando esté activado, Webserver-configured compresión Gzip/Deflate funcionará, pero las conexiones http no serán cerradas antes del evento onShutDown() causando una carga más lenta de la página',
                 'OFFLINE_WARNING' => 'No se puede establecer la conexión con GPM'
             ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron cubiertos.',
                 'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revise la información e intente enviar el formulario otra vez.',
@@ -6459,10 +6471,6 @@ Pfad: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
-            ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
             ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Buscar...',
@@ -7802,6 +7810,57 @@ Ruta: `%2$s`
                 'NEVER_CACHE_TWIG' => 'Ne jamais mettre en cache Twig',
                 'ALLOW_WEBSERVER_GZIP' => 'Autorisé Gzip WebServer'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.',
+                'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
+                'EMAIL_FOOTER' => 'GetGrav.org'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Erreur',
+                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'Liens externes',
+                    'PLUGIN_STATUS' => 'Statut du plugin',
+                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
+                    'BUILTIN_CSS' => 'Utiliser les CSS intégrés',
+                    'WEIGHT' => 'Ordre d\'exécution',
+                    'SETTINGS' => 'Configuration',
+                    'CONTENT' => 'Contenu',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Exclusion',
+                        'SECTION_HELP' => 'Exclure les liens avec des classes spécifiques ou des domaines comme étant reconnus comme liens externes.',
+                        'CLASSES' => 'Exclure tous les liens avec cette classe',
+                        'CLASSES_HELP' => 'Liste des classes séparées par des virgules.',
+                        'DOMAINS' => 'Une liste des domaines à exclure',
+                        'DOMAINS_HELP' => 'Liste des domaines séparés par des virgules ex : _localhost/*_  (les expressions régulières peuvent être utilisées)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Liens',
+                        'SECTION_HELP' => 'Définir les liens commençant par <code>www.</code> et ceux de la liste des schémas définis comme étant des liens externes.',
+                        'WWW' => 'Liens WWW',
+                        'WWW_HELP' => 'Reconnaître automatiquement tout lien commencant par \'www.\' comme étant un lien externe.',
+                        'SCHEMES' => 'Schémas autorisés',
+                        'SCHEMES_HELP' => 'Liste des schémas autorisés'
+                    ],
+                    'PROCESS' => 'Filtrer les liens externes de la page',
+                    'TITLE' => 'Afficher le titre par défaut pour les liens externes',
+                    'TITLE_MESSAGE' => 'Ce lien va vous diriger vers un site externe. Nous ne sommes pas responsables de son contenu.',
+                    'NO_FOLLOW' => 'Ajouter <code>rel="nofollow"</code> à tous les liens externes',
+                    'TARGET' => 'Spécifier la cible dans laquelle le contenu du lien doit s\'afficher.',
+                    'TARGET_BLANK' => '_blank | Afficher dans une nouvelle fenêtre',
+                    'TARGET_SELF' => '_self | Afficher dans la même fenêtre',
+                    'TARGET_PARENT' => '_parent | Afficher dans le cadre parent (frame)',
+                    'TARGET_TOP' => '_top | Afficher dans le cadre racine',
+                    'MODE' => 'Mode',
+                    'MODE_HELP' => 'actif = analyser et procéder pour tous les liens; passif = analyser les liens mais ne pas appliquer les classes CSS',
+                    'MODE_ACTIVE' => 'Actif - Analyser et procéder pour tous les liens',
+                    'MODE_PASSIVE' => 'Passif - Analyser les liens mais ne pas appliquer les classes CSS'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
                 'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
@@ -7836,49 +7895,6 @@ Ruta: `%2$s`
                 'DROPZONE_REMOVE_FILE' => 'Supprimer le fichier',
                 'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
                 'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Veuillez configurer une adresse \'d\'expéditeur\' dans les paramètres du Plugin ou dans le formulaire.',
-                'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
-                'EMAIL_FOOTER' => 'GetGrav.org'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Recherche...',
-                'SEARCH_RESULTS' => 'Résultats de la recherche',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %2$s résultats trouvés pour <strong>%1$s</strong>'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Réglages de base',
-                'LIMIT' => 'Limite',
-                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
-                'ORDER' => 'Classement',
-                'ORDER_BY' => 'Classement par',
-                'SHOW_SCORE' => 'Afficher le score',
-                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
-                'ITEMS' => 'Éléments',
-                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
-                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
-                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
-                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
-                'EXPLICIT_SCORE' => 'Score explicite de la page',
-                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
-                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
-                'CONTENT_MATCH' => 'Correspondance par type de contenu',
-                'CONTENT_PROCESS' => 'Contenu-contenu',
-                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
-                'ADVANCED' => 'Avancés',
-                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nom d’utilisateur',
@@ -7970,49 +7986,41 @@ Ruta: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Erreur',
-                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Réglages de base',
+                'LIMIT' => 'Limite',
+                'LIMIT_HELP' => 'Le nombre de pages en relation à afficher',
+                'ORDER' => 'Classement',
+                'ORDER_BY' => 'Classement par',
+                'SHOW_SCORE' => 'Afficher le score',
+                'SHOW_SCORE_HELP' => 'Activer/désactiver afin de déterminer si les scores doivent être affichés en sortie',
+                'ITEMS' => 'Éléments',
+                'ITEMS_HELP' => 'Prise en charge des collections basées sur `@self`, `@page` et `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Page \'dans\' le filtre',
+                'PAGE_IN_FILTER_HELP' => 'Activer si la page actuelle doit être présente dans la collection filtrée',
+                'EXPLICIT_PROCESS' => 'Traiter les pages explicites',
+                'EXPLICIT_PROCESS_HELP' => 'Activer la correspondance explicite pour cette page',
+                'EXPLICIT_SCORE' => 'Score explicite de la page',
+                'EXPLICIT_SCORE_HELP' => 'Un score compris entre (0 - 100) pour rendre une page explicite',
+                'TAXONOMY_MATCH' => 'Correspondance par type de taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Quel type de taxonomie utiliser pour la correspondance des pages',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de taxonomie',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-contenu',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activer la taxonomie pour la correspondance de contenu',
+                'CONTENT_MATCH' => 'Correspondance par type de contenu',
+                'CONTENT_PROCESS' => 'Contenu-contenu',
+                'CONTENT_PROCESS_HELP' => 'Activer la correspondance de contenu (NOTE : désactivez si vous avez beaucoup de contenu)',
+                'ADVANCED' => 'Avancés',
+                'TAXONOMY_SCORE_SCALE' => 'Taxonomie-niveau de score de taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Taxonomie-niveau de score de contenu'
             ],
-            'PLUGINS' => [
-                'EXTERNAL_LINKS' => [
-                    'PLUGIN_NAME' => 'Liens externes',
-                    'PLUGIN_STATUS' => 'Statut du plugin',
-                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
-                    'BUILTIN_CSS' => 'Utiliser les CSS intégrés',
-                    'WEIGHT' => 'Ordre d\'exécution',
-                    'SETTINGS' => 'Configuration',
-                    'CONTENT' => 'Contenu',
-                    'EXCLUDE' => [
-                        'SECTION' => 'Exclusion',
-                        'SECTION_HELP' => 'Exclure les liens avec des classes spécifiques ou des domaines comme étant reconnus comme liens externes.',
-                        'CLASSES' => 'Exclure tous les liens avec cette classe',
-                        'CLASSES_HELP' => 'Liste des classes séparées par des virgules.',
-                        'DOMAINS' => 'Une liste des domaines à exclure',
-                        'DOMAINS_HELP' => 'Liste des domaines séparés par des virgules ex : _localhost/*_  (les expressions régulières peuvent être utilisées)'
-                    ],
-                    'LINKS' => [
-                        'SECTION' => 'Liens',
-                        'SECTION_HELP' => 'Définir les liens commençant par <code>www.</code> et ceux de la liste des schémas définis comme étant des liens externes.',
-                        'WWW' => 'Liens WWW',
-                        'WWW_HELP' => 'Reconnaître automatiquement tout lien commencant par \'www.\' comme étant un lien externe.',
-                        'SCHEMES' => 'Schémas autorisés',
-                        'SCHEMES_HELP' => 'Liste des schémas autorisés'
-                    ],
-                    'PROCESS' => 'Filtrer les liens externes de la page',
-                    'TITLE' => 'Afficher le titre par défaut pour les liens externes',
-                    'TITLE_MESSAGE' => 'Ce lien va vous diriger vers un site externe. Nous ne sommes pas responsables de son contenu.',
-                    'NO_FOLLOW' => 'Ajouter <code>rel="nofollow"</code> à tous les liens externes',
-                    'TARGET' => 'Spécifier la cible dans laquelle le contenu du lien doit s\'afficher.',
-                    'TARGET_BLANK' => '_blank | Afficher dans une nouvelle fenêtre',
-                    'TARGET_SELF' => '_self | Afficher dans la même fenêtre',
-                    'TARGET_PARENT' => '_parent | Afficher dans le cadre parent (frame)',
-                    'TARGET_TOP' => '_top | Afficher dans le cadre racine',
-                    'MODE' => 'Mode',
-                    'MODE_HELP' => 'actif = analyser et procéder pour tous les liens; passif = analyser les liens mais ne pas appliquer les classes CSS',
-                    'MODE_ACTIVE' => 'Actif - Analyser et procéder pour tous les liens',
-                    'MODE_PASSIVE' => 'Passif - Analyser les liens mais ne pas appliquer les classes CSS'
-                ]
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Recherche...',
+                'SEARCH_RESULTS' => 'Résultats de la recherche',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %2$s résultats trouvés pour <strong>%1$s</strong>'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -8703,6 +8711,15 @@ Path: `%2$s`
                 'ALL' => 'Sve',
                 'FROM' => 'od'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Greška',
+                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
                 'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
@@ -8713,17 +8730,6 @@ Path: `%2$s`
                 'ACCEPT' => 'Dopušteni MIME Tipovi',
                 'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
                 'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Traži...',
-                'SEARCH_RESULTS' => 'Rezultati pretrage',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'PLUGIN_LOGIN' => [
                 'ACCESS_DENIED' => 'Pristup odbijen...',
@@ -8767,9 +8773,11 @@ Path: `%2$s`
                 'REGISTRATION_FIELD_KEY' => 'Ime polja',
                 'OPTIONS' => 'Opcije'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Greška',
-                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Traži...',
+                'SEARCH_RESULTS' => 'Rezultati pretrage',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -10277,6 +10285,14 @@ Elérési út: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Disattivata per impostazione predefinita. Quando attivata, la compressione configurata Gzip/Deflate WebServer, funzionerà ma la connessione http non verrà chiusa prima dell\'evento onShutDown() rallentando il caricamento della pagina',
                 'OFFLINE_WARNING' => 'Non è possibile stabilire la connessione con il GPM'
             ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Errore',
+                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -10314,20 +10330,12 @@ Elérési út: `%2$s`
                 'YES' => 'Si',
                 'NO' => 'No'
             ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
-            ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => 'Cerca...',
                 'SEARCH_RESULTS' => 'Risultati della ricerca',
                 'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
                 'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
                 'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Errore',
-                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
@@ -14228,6 +14236,15 @@ Caminho: `%2$s`
                 'ALLOW_WEBSERVER_GZIP_HELP' => 'Dezactivată în mod implicit. Dacă este activată, compresia Gzip/Defflate configurată pe WebServer va funcționa dar conexiunile Http nu vor fi închise cu evenimentul onShutDown() astfel paginile se vor încarca mai greu',
                 'OFFLINE_WARNING' => 'Conexiunea la GPM nu poate fi stabilită'
             ],
+            'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Eroare',
+                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
                 'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
@@ -14246,47 +14263,6 @@ Caminho: `%2$s`
                 'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
-            ],
-            'PLUGIN_EMAIL' => [
-                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Caută...',
-                'SEARCH_RESULTS' => 'Rezultatele căutării',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
-            ],
-            'PLUGIN_REL_PAGES' => [
-                'BASICS' => 'Setări de bază',
-                'LIMIT' => 'Limită',
-                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
-                'ORDER' => 'Ordinea',
-                'ORDER_BY' => 'Ordonează după',
-                'SHOW_SCORE' => 'Arată scorul',
-                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
-                'ITEMS' => 'Articole',
-                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
-                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
-                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
-                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
-                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
-                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
-                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
-                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
-                'TAXONOMY' => 'Taxonomie',
-                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
-                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
-                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
-                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
-                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
-                'CONTENT_MATCH' => 'Potrivirea după conținut',
-                'CONTENT_PROCESS' => 'Conținut-conținut',
-                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
-                'ADVANCED' => 'Avansat',
-                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
-                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Nume utilizator',
@@ -14375,9 +14351,41 @@ Caminho: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Eroare',
-                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
+            'PLUGIN_REL_PAGES' => [
+                'BASICS' => 'Setări de bază',
+                'LIMIT' => 'Limită',
+                'LIMIT_HELP' => 'Numărul afișat al paginilor legate',
+                'ORDER' => 'Ordinea',
+                'ORDER_BY' => 'Ordonează după',
+                'SHOW_SCORE' => 'Arată scorul',
+                'SHOW_SCORE_HELP' => 'Comutați pentru afișarea scorurilor',
+                'ITEMS' => 'Articole',
+                'ITEMS_HELP' => 'Acceptă colecții bazate pe `@self`, `@page` și `@taxonomy`',
+                'PAGE_IN_FILTER' => 'Filtru \'in\' pagină',
+                'PAGE_IN_FILTER_HELP' => 'Activează dacă pagina curentă trebuie să fie în colecția filtrată',
+                'EXPLICIT_PROCESS' => 'Procesează anumite pagini specifice',
+                'EXPLICIT_PROCESS_HELP' => 'Activează pentru procesarea anumitor pagini specifice',
+                'EXPLICIT_SCORE' => 'Scorul paginilor specifice',
+                'EXPLICIT_SCORE_HELP' => 'Un scor între (0 - 100) pentru a da unor pagini specifice greutate',
+                'TAXONOMY_MATCH' => 'Potrivire după Taxonomie',
+                'TAXONOMY' => 'Taxonomie',
+                'TAXONOMY_HELP' => 'Ce fel de taxonomie să fie folosită la potrivirea paginilor',
+                'TAXONOMY_TAXONOMY_PROCESS' => 'Taxonomie-taxonomie',
+                'TAXONOMY_TAXONOMY_PROCESS_HELP' => 'Activeazā potrivirea între taxonomii',
+                'TAXONOMY_CONTENT_PROCESS' => 'Taxonomie-conținut',
+                'TAXONOMY_CONTENT_PROCESS_HELP' => 'Activează potrivirea după taxonomie - conținut',
+                'CONTENT_MATCH' => 'Potrivirea după conținut',
+                'CONTENT_PROCESS' => 'Conținut-conținut',
+                'CONTENT_PROCESS_HELP' => 'Activează pentru potrivire după conținut (Notă: dezactivați dacă aveți conținut mult)',
+                'ADVANCED' => 'Avansat',
+                'TAXONOMY_SCORE_SCALE' => 'Scorul scalei Taxonomie-taxonomie',
+                'CONTENT_SCORE_SCALE' => 'Scorul scalei Taxonomie-conținut'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Caută...',
+                'SEARCH_RESULTS' => 'Rezultatele căutării',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
@@ -15101,6 +15109,54 @@ Calea: `%2$s`
                 'ERROR_SYSTEM' => 'Системная ошибка',
                 'OFFLINE_WARNING' => 'Невозможно установить подключение к GPM'
             ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Ошибка',
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'Внешние ссылки',
+                    'PLUGIN_STATUS' => 'Статус плагина',
+                    'STATUS_HELP' => 'Установите нет, чтобы отключить этот плагин полностью.',
+                    'BUILTIN_CSS' => 'Использовать встроенные CSS',
+                    'WEIGHT' => 'Порядок выполнения',
+                    'SETTINGS' => 'Настройки',
+                    'CONTENT' => 'Контент',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Исключения',
+                        'SECTION_HELP' => 'Исключить ссылки с определенным классом или домены, которые не признаются в качестве внешних ссылок.',
+                        'CLASSES' => 'Исключить все ссылки с этим классом',
+                        'CLASSES_HELP' => 'Список разделенных запятыми.',
+                        'DOMAINS' => 'Список доменов, которые будут исключены',
+                        'DOMAINS_HELP' => 'Разделенный запятыми список доменов, например, _localhost / * _ (любое регулярное выражение может быть использовано)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Ссылки',
+                        'SECTION_HELP' => 'Установить ссылки, начинающиеся с <code>www.</code>? и список разрешенных схем, как внешние.',
+                        'WWW' => 'Ссылка WWW',
+                        'WWW_HELP' => 'Автоматически связывать любое имя хоста, которое начинается с \'www\'. как внешние',
+                        'SCHEMES' => 'Допустимые схемы',
+                        'SCHEMES_HELP' => 'Список допустимых схем'
+                    ],
+                    'PROCESS' => 'Фильтр внешних ссылок на странице',
+                    'TITLE' => 'Показать название по умолчанию для внешних ссылок',
+                    'TITLE_MESSAGE' => 'Эта ссылка приведет вас на внешний веб-сайт. Мы не несем ответственности за его содержание.',
+                    'NO_FOLLOW' => 'Добавить <code>rel="nofollow"</code> ко всем внешним ссылкам',
+                    'TARGET' => 'Установить целевой атрибут ссылки.',
+                    'TARGET_BLANK' => '_blank | Загрузка в новом окне',
+                    'TARGET_SELF' => '_self | Загрузка в том же фрейме где и был сделан клик',
+                    'TARGET_PARENT' => '_parent | Загрузка в родительском наборе фреймов',
+                    'TARGET_TOP' => '_top | Загрузка в отдельном окне браузера',
+                    'MODE' => 'Режим',
+                    'MODE_HELP' => 'активный = обработка и разбор всех ссылок; пассивный = вставлять ссылки, но не устанавливать для них CSS',
+                    'MODE_ACTIVE' => 'Активный = обработка и разбор всех ссылок',
+                    'MODE_PASSIVE' => 'Пассивный = вставлять ссылки, но не устанавливать для них CSS'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Форма не подтверждена. Отсутствует одно или несколько обязательных полей.',
                 'NONCE_NOT_VALIDATED' => 'Упс, у вас возникла проблема, проверьте свои данные и отправьте форму еще раз.',
@@ -15137,16 +15193,6 @@ Calea: `%2$s`
                 'DROPZONE_RESPONSE_ERROR' => 'Сервер ответил кодом {{statusCode}}.',
                 'YES' => 'Да',
                 'NO' => 'Нет'
-            ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
-            ],
-            'PLUGIN_SIMPLESEARCH' => [
-                'SEARCH_PLACEHOLDER' => 'Найти...',
-                'SEARCH_RESULTS' => 'Результат поиска',
-                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
-                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
             ],
             'PLUGIN_LOGIN' => [
                 'USERNAME' => 'Логин',
@@ -15257,49 +15303,11 @@ Calea: `%2$s`
                 'ROUTE_PROFILE' => 'Профиля пользователя',
                 'ROUTE_ACTIVATE' => 'Активации пользователя'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
-            ],
-            'PLUGINS' => [
-                'EXTERNAL_LINKS' => [
-                    'PLUGIN_NAME' => 'Внешние ссылки',
-                    'PLUGIN_STATUS' => 'Статус плагина',
-                    'STATUS_HELP' => 'Установите нет, чтобы отключить этот плагин полностью.',
-                    'BUILTIN_CSS' => 'Использовать встроенные CSS',
-                    'WEIGHT' => 'Порядок выполнения',
-                    'SETTINGS' => 'Настройки',
-                    'CONTENT' => 'Контент',
-                    'EXCLUDE' => [
-                        'SECTION' => 'Исключения',
-                        'SECTION_HELP' => 'Исключить ссылки с определенным классом или домены, которые не признаются в качестве внешних ссылок.',
-                        'CLASSES' => 'Исключить все ссылки с этим классом',
-                        'CLASSES_HELP' => 'Список разделенных запятыми.',
-                        'DOMAINS' => 'Список доменов, которые будут исключены',
-                        'DOMAINS_HELP' => 'Разделенный запятыми список доменов, например, _localhost / * _ (любое регулярное выражение может быть использовано)'
-                    ],
-                    'LINKS' => [
-                        'SECTION' => 'Ссылки',
-                        'SECTION_HELP' => 'Установить ссылки, начинающиеся с <code>www.</code>? и список разрешенных схем, как внешние.',
-                        'WWW' => 'Ссылка WWW',
-                        'WWW_HELP' => 'Автоматически связывать любое имя хоста, которое начинается с \'www\'. как внешние',
-                        'SCHEMES' => 'Допустимые схемы',
-                        'SCHEMES_HELP' => 'Список допустимых схем'
-                    ],
-                    'PROCESS' => 'Фильтр внешних ссылок на странице',
-                    'TITLE' => 'Показать название по умолчанию для внешних ссылок',
-                    'TITLE_MESSAGE' => 'Эта ссылка приведет вас на внешний веб-сайт. Мы не несем ответственности за его содержание.',
-                    'NO_FOLLOW' => 'Добавить <code>rel="nofollow"</code> ко всем внешним ссылкам',
-                    'TARGET' => 'Установить целевой атрибут ссылки.',
-                    'TARGET_BLANK' => '_blank | Загрузка в новом окне',
-                    'TARGET_SELF' => '_self | Загрузка в том же фрейме где и был сделан клик',
-                    'TARGET_PARENT' => '_parent | Загрузка в родительском наборе фреймов',
-                    'TARGET_TOP' => '_top | Загрузка в отдельном окне браузера',
-                    'MODE' => 'Режим',
-                    'MODE_HELP' => 'активный = обработка и разбор всех ссылок; пассивный = вставлять ссылки, но не устанавливать для них CSS',
-                    'MODE_ACTIVE' => 'Активный = обработка и разбор всех ссылок',
-                    'MODE_PASSIVE' => 'Пассивный = вставлять ссылки, но не устанавливать для них CSS'
-                ]
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Найти...',
+                'SEARCH_RESULTS' => 'Результат поиска',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -18314,15 +18322,15 @@ Path: `%2$s`
                 'ERROR_SIMPLE' => '簡易錯誤',
                 'ERROR_SYSTEM' => '出現系統錯誤'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => '错误',
+                'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
+            ],
             'PLUGIN_SIMPLESEARCH' => [
                 'SEARCH_PLACEHOLDER' => '搜索...',
                 'SEARCH_RESULTS' => '搜索结果',
                 'SEARCH_RESULTS_SUMMARY_SINGULAR' => '查询: <strong>%s</strong> 找到 1 个结果',
                 'SEARCH_RESULTS_SUMMARY_PLURAL' => '查询: <strong>%s</strong> 找到 %s 个结果'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => '错误',
-                'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
             ]
         ],
         'nb' => [
@@ -18350,7 +18358,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '9e9c0994227f73a409110b468c1bc11e',
-        'timestamp' => 1508473892
+        'checksum' => '46fa1b0d0d2344da29fe2f565b8eabf1',
+        'timestamp' => 1509423686
     ]
 ];

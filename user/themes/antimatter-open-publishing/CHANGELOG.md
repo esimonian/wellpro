@@ -1,8 +1,93 @@
+# v1.1.4
+## 10/26/2017
+
+1. [](#new)
+    * Option to display Creative Commons license with icon only
+
+# v1.1.3
+## 10/25/2017
+
+1. [](#improved)
+    * Improved display of Git Sync links within pages
+
+# v1.1.2
+## 10/24/2017
+
+1. [](#improved)
+    * Improved footer display when displaying Git Sync link
+
+# v1.1.1
+## 10/24/2017
+
+1. [](#improved)
+    * Improved default handling after initial installation of theme
+
+# v1.1.0
+## 10/23/2017
+
+1. [](#bugfix)
+    * Restored needed CSS classes to handle 'chromeless' external links
+
+# v1.0.9
+## 10/23/2017
+
+1. [](#new)
+    * Further streamlined Git Sync setup step by automating 'Edit in Git' tree URL calculation
+
+# v1.0.8
+## 10/16/2017
+
+1. [](#new)
+    * Added Markdown-based Footer page
+
+# v1.0.7
+## 10/11/2017
+
+1. [](#bugfix)
+    * 'featured' posts are now only displayed on their parent blog page (to support multiple blogs on one site)
+
+# v1.0.6
+## 10/10/2017
+
+1. [](#new)
+    * Added support for blog post title icons (default and per page)
+
+# v1.0.5
+## 10/09/2017
+
+1. [](#bugfix)
+    * Fixed incorrect position of image credit in very wide Browser windows
+
+# v1.0.4
+## 10/06/2017
+
+1. [](#bugfix)
+    * Changed page header option name from `hidefrompostlist` to `hide_from_post_list`
+1. [](#improved)
+    * Adjusted position of Alternative Text field in Blueprint
+
+# v1.0.3
+## 10/06/2017
+
+1. [](#new)
+    * Added support for image alt text on blog post image headers
+    * Added page header option to hide posts from blog index
+1. [](#improved)
+    * Revised layout for Blog Item Image Captions options in Blueprint
+
+# v1.0.2
+## 10/04/2017
+
+1. [](#new)
+    * Added support for image captions on blog post image headers
+1. [](#bugfix)
+    * Fixed issue of Edit Page in Git links when in 'chromeless' mode
+
 # v1.0.1
 ## 09/22/2017
 
 1. [](#bugfix)
-    * Fixed issue of Edit Page in Git links when in 'chromeless' mode
+    * Fixed issue of View in Git links when in 'chromeless' mode
 
 # v1.0.0
 ## 09/22/2017

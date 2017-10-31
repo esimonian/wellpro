@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://shortcode-core/shortcode-core.yaml',
-    'modified' => 1506826738,
+    'modified' => 1509319816,
     'data' => [
         'enabled' => true,
         'active' => true,

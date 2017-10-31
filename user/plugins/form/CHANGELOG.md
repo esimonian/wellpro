@@ -1,3 +1,21 @@
+# v2.10.0
+## 10/26/2017
+
+1. [](#new)
+    * Added ability to 'remember' field values in cookie between submissions [#200](https://github.com/getgrav/grav-plugin-form/pull/200)
+1. [](#improved)
+    * Added back improved `filesize` option that falls back to PHP file upload limits by default [#202](https://github.com/getgrav/grav-plugin-form/issues/202)
+    * Added missing file upload options into blueprints and language files
+
+# v2.9.3
+## 10/11/2017
+
+1. [](#improved)
+    * Removed `filesize` plugin configuration in favor of `system.media.upload_limit`
+    * Consolidated `field.classes` and `field.wrapper_classes` in radio/checkbox/checkboxes [#193](https://github.com/getgrav/grav-plugin-form/issues/)
+    * Remove trailing slash from form action [#195](https://github.com/getgrav/grav-plugin-form/issues/195)
+    * Improved `honeypot` validation check [#198](https://github.com/getgrav/grav-plugin-form/issues/198)
+
 # v2.9.2
 ## 09/30/2017
 
