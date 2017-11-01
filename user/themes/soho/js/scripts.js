@@ -14,7 +14,8 @@
     wow.init();
 
     $('.small-item').matchHeight({byRow: false});
-
+    $('.entry-img img').matchHeight({byRow: true});
+    $('.entry-title').matchHeight({byRow: false});
   });
 
 

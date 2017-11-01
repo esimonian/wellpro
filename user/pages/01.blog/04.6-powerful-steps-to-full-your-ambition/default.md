@@ -1,5 +1,8 @@
 ---
 title: '6 Powerful Steps to Full Your Ambition'
+taxonomy:
+    category:
+        - Featured
 hide_git_sync_repo_link: false
 ---
 

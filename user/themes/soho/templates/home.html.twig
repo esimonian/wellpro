@@ -1,0 +1,54 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <div>
+    {% include 'partials/latest-posts.html.twig' %}
+  </div>
+  
+
+  <!-- Content -->
+  <section class="content blog-standard">
+    <div class="container relative">
+      <div class="row">
+        
+        <!-- post content -->
+        <div class="col-md-9 post-content mb-50">
+          {% for post in taxonomy.findTaxonomy({'category':'Featured'}) | slice(0, 1) %}
+            {% set blog_image = post.media.images | first %}
+            <!-- large post -->
+              {% include 'partials/large-post.html.twig' %}
+            <!-- end large post -->
+          {% endfor %}
+          <!-- grid posts -->
+          <div class="row items-grid">
+          
+          </div>
+          <!-- end grid posts -->
+
+          <div class="row items-grid">
+
+          </div> <!-- end grid posts -->
+
+          <!-- large post -->
+          <!-- end large post -->
+
+          <!-- grid posts -->
+          <div class="row">
+          </div>
+          <!-- end grid posts -->
+  <!--
+        <div class="row mt-20">
+          <div class="col-md-12 text-center">
+            <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+          </div>
+        </div>
+  -->
+
+      </div> <!-- end col -->
+      
+     {% include 'partials/sidebar.html.twig' %}
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+  </section> <!-- end content -->
+{% endblock %}

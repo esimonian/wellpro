@@ -1,0 +1,28 @@
+<!-- Latest Stories -->
+<section class="section-wrap latest-stories pb-0">
+  <div class="container-fluid nopadding">
+
+    <div class="heading-row text-center mb-40">
+      <h2 class="heading uppercase small">Latest Stories</h2>
+    </div>
+
+    <div id="main-slider" class="flickity-slider-wrap">
+      {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+        {% set blog_image = post.media.images | first %}
+        <div class="gallery-cell">
+          <article>
+            <a href="{{ post.url }}" class="entry-img">
+              <img src="{{blog_image.url}}" alt="">
+
+              <span class="entry-category"></span>
+            </a>
+            <div class="entry text-center">                  
+              <h4 class="entry-title uppercase"><a href="">{{ post.title }}</a></h4>
+              <span class="entry-date">{{post.date | date("M/d/Y") }}</span>
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section> <!-- end latest stories -->

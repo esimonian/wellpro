@@ -1,6 +1,9 @@
 ---
-hide_git_sync_repo_link: true
+taxonomy:
+    category:
+        - Wellness
 slug: blog
+hide_git_sync_repo_link: true
 content:
     items: '@self.children'
     limit: 5

@@ -1,11 +1,12 @@
 ---
-title: 'Is a Healthy Mind the Secret to a Healthy Body'
+title: 'Is a Healthy Mind the Secret to a Healthy Body?'
 published: true
 date: '01-08-2017 21:26'
 taxonomy:
     category:
         - Wellness
         - Blog
+        - Featured
     tag:
         - health
 external_links:

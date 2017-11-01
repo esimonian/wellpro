@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://antimatter-open-publishing/antimatter-open-publishing.yaml',
-    'modified' => 1509321442,
+    'modified' => 1509576127,
     'data' => [
         'streams' => [
             'schemes' => [

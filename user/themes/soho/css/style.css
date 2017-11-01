@@ -1936,6 +1936,7 @@ header.transparent .navbar-toggle .icon-bar {
   width: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  object-fit: cover;
 }
 
 .entry-meta-wrap {

@@ -1,0 +1,58 @@
+<article class="entry-item large-post">
+  <div class="entry-header">
+    <a href="#" class="entry-category">Category</a>
+    <h2 class="entry-title">
+      <a href="{{ post.url }}">{{ post.title}}</a>
+    </h2>
+  </div>
+  
+  <div class="entry-img">
+    <a href="{{ site.url}}/{{ post.url }}">
+      <img src="{{blog_image.url}}" alt="">
+    </a>
+  </div>
+
+  <div class="entry-wrap">
+    <div class="entry">                    
+                          
+      <div class="entry-content">
+        <p>{{ post.description}}
+        </p>
+        <div class="text-center">
+          <a href="{{ site.url}}/{{ post.url }}" class="read-more underline-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="entry-meta-wrap clearfix">
+        <ul class="entry-meta">
+          <li class="entry-date">
+            <a href="#">{{ post.date | date("M/d/Y") }}</a>
+          </li>                 
+          <li class="entry-comments">
+
+            <a href="{{ base_url }}/{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}">Comments</a>
+          </li>             
+        </ul>
+
+        <div class="social-icons right">
+          <a href="#">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>                        
+          <a href="#">
+            <i class="fa fa-pinterest-p"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-heart"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+              </article>
