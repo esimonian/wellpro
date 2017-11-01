@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/config/system.yaml',
-    'modified' => 1509423682,
+    'modified' => 1509424927,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -134,7 +134,7 @@ return [
             'js_pipeline' => true,
             'js_pipeline_include_externals' => true,
             'js_pipeline_before_excludes' => true,
-            'js_minify' => true,
+            'js_minify' => false,
             'enable_asset_timestamp' => true,
             'collections' => [
                 'jquery' => 'system://assets/jquery/jquery-2.x.min.js'

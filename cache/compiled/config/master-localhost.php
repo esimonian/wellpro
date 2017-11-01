@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1509423685,
-    'checksum' => '775b0a2d1f880936b5732e4f16761686',
+    'timestamp' => 1509424934,
+    'checksum' => '8b75253e052006dc8557e0222fd47018',
     'files' => [
         'user/config' => [
             'groups' => [
@@ -55,7 +55,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1509423682
+                'modified' => 1509424927
             ],
             'themes/antimatter-open-publishing' => [
                 'file' => 'user/config/themes/antimatter-open-publishing.yaml',
@@ -1064,7 +1064,7 @@ return [
                 'js_pipeline' => true,
                 'js_pipeline_include_externals' => true,
                 'js_pipeline_before_excludes' => true,
-                'js_minify' => true,
+                'js_minify' => false,
                 'enable_asset_timestamp' => true,
                 'collections' => [
                     'jquery' => 'system://assets/jquery/jquery-2.x.min.js'

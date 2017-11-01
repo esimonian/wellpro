@@ -17,8 +17,6 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
             'body' => array($this, 'block_body'),
             'content' => array($this, 'block_content'),
             'footer' => array($this, 'block_footer'),
-            'bottom' => array($this, 'block_bottom'),
-            'bottomjavascripts' => array($this, 'block_bottomjavascripts'),
         );
     }
 
@@ -36,33 +34,34 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 35
-        echo "</head>
-<body id=\"top\" class=\"";
-        // line 36
-        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "body_classes", array());
-        echo "\">
-
-";
         // line 38
-        $this->displayBlock('header', $context, $blocks);
-        // line 41
-        echo "
-";
-        // line 42
-        $this->displayBlock('body', $context, $blocks);
+        echo "</head>
+<body id=\"top\">
+  <!-- Preloader -->
+  <div class=\"loader-mask\">
+    <div class=\"loader\">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <div class=\"main-wrapper oh\">
+    ";
         // line 49
-        echo "
-";
-        // line 50
-        $this->displayBlock('footer', $context, $blocks);
+        $this->displayBlock('header', $context, $blocks);
+        // line 52
+        echo "    <div class=\"content-wrapper oh\">
+      ";
         // line 53
+        $this->displayBlock('body', $context, $blocks);
+        // line 62
         echo "
 ";
-        // line 54
-        $this->displayBlock('bottom', $context, $blocks);
-        // line 61
+        // line 63
+        $this->displayBlock('footer', $context, $blocks);
+        // line 66
         echo "
+
 </body>
 </html>
 ";
@@ -109,9 +108,9 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
     ";
         // line 29
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 32
+        // line 35
         echo "    ";
-        echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => ($context["bottom"] ?? null)), "method");
+        echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
 
 ";
@@ -142,8 +141,10 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/spacings.css", 1 => 94), "method");
         // line 24
-        echo "        {}% do assets.addCss('theme://css/animate.css', 94) %}
-
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/animate.css", 1 => 94), "method");
+        // line 25
+        echo "
     ";
     }
 
@@ -152,68 +153,58 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
     {
         // line 30
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery.min.js", 1 => 100), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/jquery.min.js", 1 => 100), "method");
         // line 31
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/bootstrap.min.js"), "method");
+        // line 32
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/plugins.js"), "method");
+        // line 33
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/scripts.js"), "method");
+        // line 34
         echo "    ";
     }
 
-    // line 38
+    // line 49
     public function block_header($context, array $blocks = array())
     {
-        // line 39
-        echo "  ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 39)->display($context);
+        // line 50
+        echo "      ";
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 50)->display($context);
+        // line 51
+        echo "    ";
     }
 
-    // line 42
+    // line 53
     public function block_body($context, array $blocks = array())
     {
-        // line 43
-        echo "    <section id=\"body\">
-        <div class=\"wrapper padding\">
-        ";
-        // line 45
+        // line 54
+        echo "        <main class=\"page-content\" aria-label=\"Content\">
+          <div class=\"wrapper\">
+            ";
+        // line 56
         $this->displayBlock('content', $context, $blocks);
-        // line 46
-        echo "        </div>
-    </section>
-";
+        // line 57
+        echo "          </div> <!-- end content wrapper -->
+    </div> <!-- end main wrapper -->
+  </div>
+        </main>
+      ";
     }
 
-    // line 45
+    // line 56
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 50
+    // line 63
     public function block_footer($context, array $blocks = array())
     {
-        // line 51
+        // line 64
         echo "
 ";
-    }
-
-    // line 54
-    public function block_bottom($context, array $blocks = array())
-    {
-        // line 55
-        echo "  ";
-        $this->displayBlock('bottomjavascripts', $context, $blocks);
-    }
-
-    public function block_bottomjavascripts($context, array $blocks = array())
-    {
-        // line 56
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "bootstrap.min.js"), "method");
-        // line 57
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "plugins.js"), "method");
-        // line 58
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "scripts.js"), "method");
-        // line 59
-        echo "    ";
     }
 
     public function getTemplateName()
@@ -228,7 +219,7 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
 
     public function getDebugInfo()
     {
-        return array (  216 => 59,  213 => 58,  210 => 57,  207 => 56,  200 => 55,  197 => 54,  192 => 51,  189 => 50,  184 => 45,  178 => 46,  176 => 45,  172 => 43,  169 => 42,  164 => 39,  161 => 38,  157 => 31,  154 => 30,  151 => 29,  145 => 24,  142 => 23,  139 => 22,  136 => 21,  133 => 20,  130 => 19,  127 => 18,  124 => 17,  121 => 16,  113 => 32,  111 => 29,  105 => 27,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 61,  63 => 54,  60 => 53,  58 => 50,  55 => 49,  53 => 42,  50 => 41,  48 => 38,  43 => 36,  40 => 35,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  206 => 64,  203 => 63,  198 => 56,  190 => 57,  188 => 56,  184 => 54,  181 => 53,  177 => 51,  174 => 50,  171 => 49,  167 => 34,  164 => 33,  161 => 32,  158 => 31,  155 => 30,  152 => 29,  147 => 25,  144 => 24,  141 => 23,  138 => 22,  135 => 21,  132 => 20,  129 => 19,  126 => 18,  123 => 17,  120 => 16,  112 => 35,  110 => 29,  104 => 27,  102 => 16,  97 => 14,  93 => 13,  90 => 12,  88 => 11,  77 => 7,  74 => 6,  71 => 5,  63 => 66,  61 => 63,  58 => 62,  56 => 53,  53 => 52,  51 => 49,  38 => 38,  36 => 5,  31 => 3,  28 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -264,43 +255,49 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
         {% do assets.addCss('theme://css/style.css', 96) %}
         {% do assets.addCss('theme://css/responsive.css', 95) %}
         {% do assets.addCss('theme://css/spacings.css', 94) %}
-        {}% do assets.addCss('theme://css/animate.css', 94) %}
+        {% do assets.addCss('theme://css/animate.css', 94) %}
 
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery.min.js', 100) %}
+        {% do assets.addJs('theme://js/jquery.min.js', 100) %}
+        {% do assets.addJs('theme://js/bootstrap.min.js') %}
+        {% do assets.addJs('theme://js/plugins.js') %}
+        {% do assets.addJs('theme://js/scripts.js') %}
     {% endblock %}
-    {{ assets.js(bottom) }}
+    {{ assets.js() }}
 
 {% endblock head%}
 </head>
-<body id=\"top\" class=\"{{ page.header.body_classes }}\">
+<body id=\"top\">
+  <!-- Preloader -->
+  <div class=\"loader-mask\">
+    <div class=\"loader\">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 
-{% block header %}
-  {% include 'partials/header.html.twig' %}
-{% endblock %}
-
-{% block body %}
-    <section id=\"body\">
-        <div class=\"wrapper padding\">
-        {% block content %}{% endblock %}
-        </div>
-    </section>
-{% endblock %}
+  <div class=\"main-wrapper oh\">
+    {% block header %}
+      {% include 'partials/header.html.twig' %}
+    {% endblock %}
+    <div class=\"content-wrapper oh\">
+      {% block body %}
+        <main class=\"page-content\" aria-label=\"Content\">
+          <div class=\"wrapper\">
+            {% block content %}{% endblock %}
+          </div> <!-- end content wrapper -->
+    </div> <!-- end main wrapper -->
+  </div>
+        </main>
+      {% endblock %}
 
 {% block footer %}
 
 {% endblock %}
 
-{% block bottom %}
-  {% block bottomjavascripts %}
-        {% do assets.addJs('bootstrap.min.js') %}
-        {% do assets.addJs('plugins.js') %}
-        {% do assets.addJs('scripts.js') %}
-    {% endblock %}
-{% endblock %}
 
 </body>
 </html>

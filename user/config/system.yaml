@@ -107,7 +107,7 @@ assets:
   js_pipeline: true
   js_pipeline_include_externals: true
   js_pipeline_before_excludes: true
-  js_minify: true
+  js_minify: false
   enable_asset_timestamp: true
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
