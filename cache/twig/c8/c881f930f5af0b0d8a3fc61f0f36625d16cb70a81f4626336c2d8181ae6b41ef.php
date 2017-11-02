@@ -17,6 +17,7 @@ class __TwigTemplate_a6766bfb4966dc7b861fdf8eb27b313b3929ea0cc0ea363a822a5e47595
             'body' => array($this, 'block_body'),
             'content' => array($this, 'block_content'),
             'footer' => array($this, 'block_footer'),
+            'bottom' => array($this, 'block_bottom'),
         );
     }
 
@@ -59,9 +60,13 @@ class __TwigTemplate_a6766bfb4966dc7b861fdf8eb27b313b3929ea0cc0ea363a822a5e47595
 ";
         // line 63
         $this->displayBlock('footer', $context, $blocks);
-        // line 67
+        // line 66
         echo "
-
+";
+        // line 67
+        $this->displayBlock('bottom', $context, $blocks);
+        // line 70
+        echo "
 </body>
 </html>
 ";
@@ -201,10 +206,17 @@ class __TwigTemplate_a6766bfb4966dc7b861fdf8eb27b313b3929ea0cc0ea363a822a5e47595
     public function block_footer($context, array $blocks = array())
     {
         // line 64
+        echo "  
+";
+    }
+
+    // line 67
+    public function block_bottom($context, array $blocks = array())
+    {
+        // line 68
         echo "  ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
-
 ";
     }
 
@@ -220,7 +232,7 @@ class __TwigTemplate_a6766bfb4966dc7b861fdf8eb27b313b3929ea0cc0ea363a822a5e47595
 
     public function getDebugInfo()
     {
-        return array (  204 => 64,  201 => 63,  196 => 56,  188 => 57,  186 => 56,  182 => 54,  179 => 53,  175 => 51,  172 => 50,  169 => 49,  165 => 34,  162 => 33,  159 => 32,  156 => 31,  153 => 30,  150 => 29,  145 => 25,  142 => 24,  139 => 23,  136 => 22,  133 => 21,  130 => 20,  127 => 19,  124 => 18,  121 => 17,  118 => 16,  112 => 35,  110 => 29,  104 => 27,  102 => 16,  97 => 14,  93 => 13,  90 => 12,  88 => 11,  77 => 7,  74 => 6,  71 => 5,  63 => 67,  61 => 63,  58 => 62,  56 => 53,  53 => 52,  51 => 49,  38 => 38,  36 => 5,  31 => 3,  28 => 2,  26 => 1,);
+        return array (  217 => 68,  214 => 67,  209 => 64,  206 => 63,  201 => 56,  193 => 57,  191 => 56,  187 => 54,  184 => 53,  180 => 51,  177 => 50,  174 => 49,  170 => 34,  167 => 33,  164 => 32,  161 => 31,  158 => 30,  155 => 29,  150 => 25,  147 => 24,  144 => 23,  141 => 22,  138 => 21,  135 => 20,  132 => 19,  129 => 18,  126 => 17,  123 => 16,  117 => 35,  115 => 29,  109 => 27,  107 => 16,  102 => 14,  98 => 13,  95 => 12,  93 => 11,  82 => 7,  79 => 6,  76 => 5,  69 => 70,  67 => 67,  64 => 66,  62 => 63,  59 => 62,  57 => 53,  54 => 52,  52 => 49,  39 => 38,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -296,10 +308,12 @@ class __TwigTemplate_a6766bfb4966dc7b861fdf8eb27b313b3929ea0cc0ea363a822a5e47595
       {% endblock %}
 
 {% block footer %}
-  {{ assets.js() }}
-
+  
 {% endblock %}
 
+{% block bottom %}
+  {{ assets.js() }}
+{% endblock %}
 
 </body>
 </html>
