@@ -1,0 +1,36 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<!-- Content -->
+<section class="content blog-standard no-sidebar">
+  <div class="container relative">
+    <div class="row">
+
+      <!-- post content -->
+      <div class="col-md-12 post-content mb-50">
+
+        <!-- grid posts -->
+        <div class="row items-grid">
+          {% for post in page.collection %}
+          {% set blog_image = post.media.images | first %}
+            {% include 'partials/single-grid-item.html.twig' %}
+          {% endfor %}
+
+        </div> <!-- end grid posts -->
+
+<!--
+        <div class="row mt-20">
+          <div class="col-md-12 text-center">
+            <a href="#" class="btn btn-md btn-stroke" id="load-more">Load More</a>
+          </div>
+        </div>
+        -->
+
+
+      </div> <!-- end col -->
+
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section> <!-- end content -->
+{% endblock %}
