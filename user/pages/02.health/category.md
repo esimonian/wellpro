@@ -4,7 +4,7 @@ published: true
 hide_git_sync_repo_link: '0'
 git_sync_repo_link: ''
 content:
-    items: '@self.children'
+    items: '@self.descendants'
     limit: '5'
     order:
         by: date
