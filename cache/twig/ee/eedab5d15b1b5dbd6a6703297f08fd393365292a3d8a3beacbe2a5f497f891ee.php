@@ -17,6 +17,7 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
             'body' => array($this, 'block_body'),
             'content' => array($this, 'block_content'),
             'footer' => array($this, 'block_footer'),
+            'bottom' => array($this, 'block_bottom'),
         );
     }
 
@@ -61,7 +62,11 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
         $this->displayBlock('footer', $context, $blocks);
         // line 66
         echo "
-
+";
+        // line 67
+        $this->displayBlock('bottom', $context, $blocks);
+        // line 70
+        echo "
 </body>
 </html>
 ";
@@ -109,9 +114,7 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
         // line 29
         $this->displayBlock('javascripts', $context, $blocks);
         // line 35
-        echo "    ";
-        echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
-        echo "
+        echo "    
 
 ";
     }
@@ -203,6 +206,16 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
     public function block_footer($context, array $blocks = array())
     {
         // line 64
+        echo "  
+";
+    }
+
+    // line 67
+    public function block_bottom($context, array $blocks = array())
+    {
+        // line 68
+        echo "  ";
+        echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
 ";
     }
@@ -219,7 +232,7 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
 
     public function getDebugInfo()
     {
-        return array (  206 => 64,  203 => 63,  198 => 56,  190 => 57,  188 => 56,  184 => 54,  181 => 53,  177 => 51,  174 => 50,  171 => 49,  167 => 34,  164 => 33,  161 => 32,  158 => 31,  155 => 30,  152 => 29,  147 => 25,  144 => 24,  141 => 23,  138 => 22,  135 => 21,  132 => 20,  129 => 19,  126 => 18,  123 => 17,  120 => 16,  112 => 35,  110 => 29,  104 => 27,  102 => 16,  97 => 14,  93 => 13,  90 => 12,  88 => 11,  77 => 7,  74 => 6,  71 => 5,  63 => 66,  61 => 63,  58 => 62,  56 => 53,  53 => 52,  51 => 49,  38 => 38,  36 => 5,  31 => 3,  28 => 2,  26 => 1,);
+        return array (  217 => 68,  214 => 67,  209 => 64,  206 => 63,  201 => 56,  193 => 57,  191 => 56,  187 => 54,  184 => 53,  180 => 51,  177 => 50,  174 => 49,  170 => 34,  167 => 33,  164 => 32,  161 => 31,  158 => 30,  155 => 29,  150 => 25,  147 => 24,  144 => 23,  141 => 22,  138 => 21,  135 => 20,  132 => 19,  129 => 18,  126 => 17,  123 => 16,  117 => 35,  115 => 29,  109 => 27,  107 => 16,  102 => 14,  98 => 13,  95 => 12,  93 => 11,  82 => 7,  79 => 6,  76 => 5,  69 => 70,  67 => 67,  64 => 66,  62 => 63,  59 => 62,  57 => 53,  54 => 52,  52 => 49,  39 => 38,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -266,7 +279,7 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
         {% do assets.addJs('theme://js/plugins.js') %}
         {% do assets.addJs('theme://js/scripts.js') %}
     {% endblock %}
-    {{ assets.js() }}
+    
 
 {% endblock head%}
 </head>
@@ -295,12 +308,15 @@ class __TwigTemplate_7e10477ef266a55fbd561c2431f980f5fc5612122a07f613e9d6d55894e
       {% endblock %}
 
 {% block footer %}
-
+  
 {% endblock %}
 
+{% block bottom %}
+  {{ assets.js() }}
+{% endblock %}
 
 </body>
 </html>
-", "partials/base.html.twig", "/Users/elizabethsimonian/freelance/wellpro/user/themes/soho/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/grav/www/html/user/themes/soho/templates/partials/base.html.twig");
     }
 }

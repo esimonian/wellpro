@@ -1,198 +1,401 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1509576415,
-    'checksum' => 'f8200a3417d6d6113569725a3b2e3ce8',
+    'timestamp' => 1509669933,
+    'checksum' => 'eb2da4b7cef8d93b8e7338a49fb31a72',
     'files' => [
         'user/config' => [
             'groups' => [
                 'file' => 'user/config/groups.yaml',
-                'modified' => 1509576127
+                'modified' => 1506838823
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1509576127
+                'modified' => 1506825818
             ],
             'plugins/admin' => [
                 'file' => 'user/config/plugins/admin.yaml',
-                'modified' => 1509576127
+                'modified' => 1507002502
             ],
             'plugins/admin-addon-user-manager' => [
                 'file' => 'user/config/plugins/admin-addon-user-manager.yaml',
-                'modified' => 1509576127
+                'modified' => 1506838527
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/config/plugins/breadcrumbs.yaml',
-                'modified' => 1509576127
+                'modified' => 1506837635
             ],
             'plugins/git-sync' => [
                 'file' => 'user/config/plugins/git-sync.yaml',
-                'modified' => 1509576127
+                'modified' => 1506827671
             ],
             'plugins/oe-schema' => [
                 'file' => 'user/config/plugins/oe-schema.yaml',
-                'modified' => 1509576127
+                'modified' => 1506827993
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/config/plugins/relatedpages.yaml',
-                'modified' => 1509576127
+                'modified' => 1506834337
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/config/plugins/taxonomylist.yaml',
-                'modified' => 1509576127
+                'modified' => 1506834322
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1509576127
+                'modified' => 1506825817
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1509576127
+                'modified' => 1506839676
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1509576127
+                'modified' => 1506825818
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1509576127
+                'modified' => 1509580443
             ],
             'themes/antimatter-open-publishing' => [
                 'file' => 'user/config/themes/antimatter-open-publishing.yaml',
-                'modified' => 1509576127
+                'modified' => 1506834607
             ],
             'themes/g5_hydrogen' => [
                 'file' => 'user/config/themes/g5_hydrogen.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826077
             ],
             'themes/niazi' => [
                 'file' => 'user/config/themes/niazi.yaml',
-                'modified' => 1509576127
+                'modified' => 1506835174
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1509576126
+                'modified' => 1506689902
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1509576126
+                'modified' => 1506689902
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1509576126
+                'modified' => 1506689902
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1509576126
+                'modified' => 1509580443
             ]
         ],
         'user/plugins' => [
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/admin-addon-user-manager' => [
-                'file' => 'user/plugins/admin-addon-user-manager/admin-addon-user-manager.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/archives' => [
-                'file' => 'user/plugins/archives/archives.yaml',
-                'modified' => 1509576127
-            ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/devtools' => [
-                'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/external_links' => [
-                'file' => 'user/plugins/external_links/external_links.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/feed' => [
-                'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1509576127
+                'modified' => 1509580443
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/gantry5' => [
-                'file' => 'user/plugins/gantry5/gantry5.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/git-sync' => [
-                'file' => 'user/plugins/git-sync/git-sync.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1509576127
+                'modified' => 1509580443
             ],
             'plugins/markdown-fontawesome' => [
                 'file' => 'user/plugins/markdown-fontawesome/markdown-fontawesome.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/markdown-notices' => [
-                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1509576127
-            ],
-            'plugins/page-inject' => [
-                'file' => 'user/plugins/page-inject/page-inject.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826695
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826707
             ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1509576127
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1506825983
             ],
-            'plugins/relatedpages' => [
-                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1509576127
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1509580443
             ],
-            'plugins/shortcode-core' => [
-                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
-                'modified' => 1509576127
+            'plugins/markdown-notices' => [
+                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
+                'modified' => 1506689902
             ],
-            'plugins/shortcode-ui' => [
-                'file' => 'user/plugins/shortcode-ui/shortcode-ui.yaml',
-                'modified' => 1509576127
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1509580443
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826717
+            ],
+            'plugins/relatedpages' => [
+                'file' => 'user/plugins/relatedpages/relatedpages.yaml',
+                'modified' => 1506826712
+            ],
+            'plugins/feed' => [
+                'file' => 'user/plugins/feed/feed.yaml',
+                'modified' => 1506826686
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/login.yaml',
+                'modified' => 1506689902
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826722
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1506826008
+            ],
+            'plugins/archives' => [
+                'file' => 'user/plugins/archives/archives.yaml',
+                'modified' => 1506826671
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1506689902
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1506689902
+            ],
+            'plugins/git-sync' => [
+                'file' => 'user/plugins/git-sync/git-sync.yaml',
+                'modified' => 1506826691
+            ],
+            'plugins/shortcode-ui' => [
+                'file' => 'user/plugins/shortcode-ui/shortcode-ui.yaml',
+                'modified' => 1506826744
+            ],
+            'plugins/external_links' => [
+                'file' => 'user/plugins/external_links/external_links.yaml',
+                'modified' => 1506826681
             ],
             'plugins/tntsearch' => [
                 'file' => 'user/plugins/tntsearch/tntsearch.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826729
+            ],
+            'plugins/admin-addon-user-manager' => [
+                'file' => 'user/plugins/admin-addon-user-manager/admin-addon-user-manager.yaml',
+                'modified' => 1506838489
             ],
             'plugins/youtube' => [
                 'file' => 'user/plugins/youtube/youtube.yaml',
-                'modified' => 1509576127
+                'modified' => 1506826733
+            ],
+            'plugins/shortcode-core' => [
+                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
+                'modified' => 1506826738
+            ],
+            'plugins/page-inject' => [
+                'file' => 'user/plugins/page-inject/page-inject.yaml',
+                'modified' => 1506826703
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'breadcrumbs' => [
+                'enabled' => true,
+                'show_all' => true,
+                'built_in_css' => true,
+                'include_home' => true,
+                'include_current' => true,
+                'icon_home' => '',
+                'icon_divider_classes' => 'fa fa-angle-right',
+                'link_trailing' => false
+            ],
+            'form' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'refresh_prevention' => false,
+                'files' => [
+                    'multiple' => false,
+                    'limit' => 10,
+                    'destination' => 'self@',
+                    'avoid_overwriting' => false,
+                    'random_name' => false,
+                    'filesize' => 0,
+                    'accept' => [
+                        0 => 'image/*'
+                    ]
+                ]
+            ],
+            'markdown-fontawesome' => [
+                'enabled' => true
+            ],
+            'pagination' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'delta' => 0
+            ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => true,
+                'use_media_folder' => false,
+                'offline' => false,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
+            ],
+            'email' => [
+                'enabled' => true,
+                'from' => NULL,
+                'from_name' => NULL,
+                'to' => NULL,
+                'to_name' => NULL,
+                'mailer' => [
+                    'engine' => 'sendmail',
+                    'smtp' => [
+                        'server' => 'localhost',
+                        'port' => 25,
+                        'encryption' => 'none',
+                        'user' => '',
+                        'password' => ''
+                    ],
+                    'sendmail' => [
+                        'bin' => '/usr/sbin/sendmail -bs'
+                    ]
+                ],
+                'content_type' => 'text/html',
+                'debug' => false
+            ],
+            'markdown-notices' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'level_classes' => [
+                    0 => 'yellow',
+                    1 => 'red',
+                    2 => 'blue',
+                    3 => 'green'
+                ]
+            ],
+            'devtools' => [
+                'enabled' => true
+            ],
+            'simplesearch' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ]
+            ],
+            'relatedpages' => [
+                'enabled' => true,
+                'limit' => 5,
+                'show_score' => true,
+                'score_threshold' => 20,
+                'filter' => [
+                    'items' => '\'@page\': /blog',
+                    'order' => [
+                        'by' => 'date',
+                        'dir' => 'desc'
+                    ]
+                ],
+                'page_in_filter' => true,
+                'explicit_pages' => [
+                    'process' => true,
+                    'score' => 100
+                ],
+                'taxonomy_match' => [
+                    'taxonomy' => 'tag',
+                    'taxonomy_taxonomy' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => '50',
+                            2 => '75',
+                            3 => '100'
+                        ]
+                    ],
+                    'taxonomy_content' => [
+                        'process' => true,
+                        'score_scale' => [
+                            1 => '20',
+                            2 => '30',
+                            3 => '45',
+                            4 => '60',
+                            5 => '70',
+                            6 => '80',
+                            7 => '90',
+                            8 => '100'
+                        ]
+                    ]
+                ],
+                'content_match' => [
+                    'process' => false
+                ]
+            ],
+            'feed' => [
+                'enabled' => true,
+                'limit' => 10,
+                'description' => 'My Feed Description',
+                'lang' => 'en-us',
+                'length' => 500,
+                'enable_json_feed' => false
+            ],
+            'login' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'route' => NULL,
+                'redirect_to_login' => true,
+                'redirect_after_login' => NULL,
+                'route_activate' => '/activate_user',
+                'route_forgot' => '/forgot_password',
+                'route_reset' => '/reset_password',
+                'route_profile' => '/user_profile',
+                'route_register' => '/user_register',
+                'route_unauthorized' => '/user_unauthorized',
+                'parent_acl' => false,
+                'protect_protected_page_media' => false,
+                'user_registration' => [
+                    'enabled' => true,
+                    'fields' => [
+                        0 => 'username',
+                        1 => 'password',
+                        2 => 'email',
+                        3 => 'fullname',
+                        4 => 'title'
+                    ],
+                    'access' => [
+                        'site' => [
+                            'login' => 'true'
+                        ]
+                    ],
+                    'options' => [
+                        'validate_password1_and_password2' => true,
+                        'set_user_disabled' => false,
+                        'login_after_registration' => true,
+                        'send_activation_email' => false,
+                        'send_notification_email' => false,
+                        'send_welcome_email' => false
+                    ]
+                ],
+                'rememberme' => [
+                    'enabled' => true,
+                    'timeout' => 604800,
+                    'name' => 'grav-rememberme'
+                ],
+                'max_pw_resets_count' => 0,
+                'max_pw_resets_interval' => 60,
+                'max_login_count' => 0,
+                'max_login_interval' => 2
+            ],
+            'taxonomylist' => [
+                'enabled' => true,
+                'route' => '/blog'
+            ],
             'admin' => [
                 'enabled' => true,
                 'route' => '/admin',
@@ -251,13 +454,6 @@ return [
                     ]
                 ]
             ],
-            'admin-addon-user-manager' => [
-                'enabled' => true,
-                'default_list_style' => 'list',
-                'pagination' => [
-                    'per_page' => '20'
-                ]
-            ],
             'archives' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -277,45 +473,43 @@ return [
                     'year' => 'archives_year'
                 ]
             ],
-            'breadcrumbs' => [
-                'enabled' => true,
-                'show_all' => true,
-                'built_in_css' => true,
-                'include_home' => true,
-                'include_current' => true,
-                'icon_home' => '',
-                'icon_divider_classes' => 'fa fa-angle-right',
-                'link_trailing' => false
-            ],
-            'devtools' => [
-                'enabled' => true
-            ],
-            'email' => [
-                'enabled' => true,
-                'from' => NULL,
-                'from_name' => NULL,
-                'to' => NULL,
-                'to_name' => NULL,
-                'mailer' => [
-                    'engine' => 'sendmail',
-                    'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
-                    ],
-                    'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail -bs'
-                    ]
-                ],
-                'content_type' => 'text/html',
-                'debug' => false
-            ],
             'error' => [
                 'enabled' => true,
                 'routes' => [
                     404 => '/error'
+                ]
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
+            ],
+            'git-sync' => [
+                'enabled' => true,
+                'text_var' => 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)',
+                'folders' => [
+                    0 => 'pages'
+                ],
+                'repository' => 'https://github.com/esimonian/wellpro.git',
+                'user' => 'esimonian',
+                'password' => 'gitsync-def502009d8d8e7774977e79572ce48227d45033af5f55dad1e193f417c13151334a61146db81a0154e642ad7b739b208656690a558e16e23f4d950ca5ef1e15dc974ad401cc5ddc96d64f4c0f1e103f649293acab1fc703682b119bba98cd5a6a67',
+                'webhook' => '/_git-sync',
+                'branch' => 'master',
+                'remote' => [
+                    'name' => 'origin',
+                    'branch' => 'master'
+                ],
+                'git' => [
+                    'author' => 'gituser',
+                    'name' => 'GitSync',
+                    'email' => 'git-sync@trilby.media',
+                    'bin' => 'git'
+                ],
+                'logging' => false
+            ],
+            'shortcode-ui' => [
+                'enabled' => true,
+                'theme' => [
+                    'tabs' => 'default'
                 ]
             ],
             'external_links' => [
@@ -352,223 +546,6 @@ return [
                 'target' => '_blank',
                 'mode' => 'active'
             ],
-            'feed' => [
-                'enabled' => true,
-                'limit' => 10,
-                'description' => 'My Feed Description',
-                'lang' => 'en-us',
-                'length' => 500,
-                'enable_json_feed' => false
-            ],
-            'form' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'refresh_prevention' => false,
-                'files' => [
-                    'multiple' => false,
-                    'limit' => 10,
-                    'destination' => 'self@',
-                    'avoid_overwriting' => false,
-                    'random_name' => false,
-                    'filesize' => 0,
-                    'accept' => [
-                        0 => 'image/*'
-                    ]
-                ]
-            ],
-            'gantry5' => [
-                'enabled' => true,
-                'production' => true,
-                'use_media_folder' => false,
-                'offline' => false,
-                'offline_message' => NULL,
-                'asset_timestamps' => true,
-                'asset_timestamps_period' => 7,
-                'debug' => false,
-                'compile_yaml' => true,
-                'compile_twig' => true
-            ],
-            'git-sync' => [
-                'enabled' => true,
-                'text_var' => 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)',
-                'folders' => [
-                    0 => 'pages'
-                ],
-                'repository' => 'https://github.com/esimonian/wellpro.git',
-                'user' => 'esimonian',
-                'password' => 'gitsync-def502009d8d8e7774977e79572ce48227d45033af5f55dad1e193f417c13151334a61146db81a0154e642ad7b739b208656690a558e16e23f4d950ca5ef1e15dc974ad401cc5ddc96d64f4c0f1e103f649293acab1fc703682b119bba98cd5a6a67',
-                'webhook' => '/_git-sync',
-                'branch' => 'master',
-                'remote' => [
-                    'name' => 'origin',
-                    'branch' => 'master'
-                ],
-                'git' => [
-                    'author' => 'gituser',
-                    'name' => 'GitSync',
-                    'email' => 'git-sync@trilby.media',
-                    'bin' => 'git'
-                ],
-                'logging' => false
-            ],
-            'login' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'route' => NULL,
-                'redirect_to_login' => true,
-                'redirect_after_login' => NULL,
-                'route_activate' => '/activate_user',
-                'route_forgot' => '/forgot_password',
-                'route_reset' => '/reset_password',
-                'route_profile' => '/user_profile',
-                'route_register' => '/user_register',
-                'route_unauthorized' => '/user_unauthorized',
-                'parent_acl' => false,
-                'protect_protected_page_media' => false,
-                'user_registration' => [
-                    'enabled' => true,
-                    'fields' => [
-                        0 => 'username',
-                        1 => 'password',
-                        2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title'
-                    ],
-                    'access' => [
-                        'site' => [
-                            'login' => 'true'
-                        ]
-                    ],
-                    'options' => [
-                        'validate_password1_and_password2' => true,
-                        'set_user_disabled' => false,
-                        'login_after_registration' => true,
-                        'send_activation_email' => false,
-                        'send_notification_email' => false,
-                        'send_welcome_email' => false
-                    ]
-                ],
-                'rememberme' => [
-                    'enabled' => true,
-                    'timeout' => 604800,
-                    'name' => 'grav-rememberme'
-                ],
-                'max_pw_resets_count' => 0,
-                'max_pw_resets_interval' => 60,
-                'max_login_count' => 0,
-                'max_login_interval' => 2
-            ],
-            'markdown-fontawesome' => [
-                'enabled' => true
-            ],
-            'markdown-notices' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'level_classes' => [
-                    0 => 'yellow',
-                    1 => 'red',
-                    2 => 'blue',
-                    3 => 'green'
-                ]
-            ],
-            'page-inject' => [
-                'enabled' => true,
-                'active' => true,
-                'processed_content' => true
-            ],
-            'pagination' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'delta' => 0
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'relatedpages' => [
-                'enabled' => true,
-                'limit' => 5,
-                'show_score' => true,
-                'score_threshold' => 20,
-                'filter' => [
-                    'items' => '\'@page\': /blog',
-                    'order' => [
-                        'by' => 'date',
-                        'dir' => 'desc'
-                    ]
-                ],
-                'page_in_filter' => true,
-                'explicit_pages' => [
-                    'process' => true,
-                    'score' => 100
-                ],
-                'taxonomy_match' => [
-                    'taxonomy' => 'tag',
-                    'taxonomy_taxonomy' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => '50',
-                            2 => '75',
-                            3 => '100'
-                        ]
-                    ],
-                    'taxonomy_content' => [
-                        'process' => true,
-                        'score_scale' => [
-                            1 => '20',
-                            2 => '30',
-                            3 => '45',
-                            4 => '60',
-                            5 => '70',
-                            6 => '80',
-                            7 => '90',
-                            8 => '100'
-                        ]
-                    ]
-                ],
-                'content_match' => [
-                    'process' => false
-                ]
-            ],
-            'shortcode-core' => [
-                'enabled' => true,
-                'active' => true,
-                'active_admin' => true,
-                'parser' => 'regex',
-                'custom_shortcodes' => NULL,
-                'fontawesome' => [
-                    'load' => true,
-                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
-                ]
-            ],
-            'shortcode-ui' => [
-                'enabled' => true,
-                'theme' => [
-                    'tabs' => 'default'
-                ]
-            ],
-            'simplesearch' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'display_button' => false,
-                'min_query_length' => 3,
-                'route' => '/search',
-                'search_content' => 'rendered',
-                'template' => 'simplesearch_results',
-                'filters' => [
-                    'category' => 'blog'
-                ],
-                'filter_combinator' => 'and',
-                'ignore_accented_characters' => false,
-                'order' => [
-                    'by' => 'date',
-                    'dir' => 'desc'
-                ]
-            ],
-            'taxonomylist' => [
-                'enabled' => true,
-                'route' => '/blog'
-            ],
             'tntsearch' => [
                 'enabled' => true,
                 'search_route' => '/search',
@@ -584,6 +561,13 @@ return [
                 'index_page_by_default' => true,
                 'filter' => NULL,
                 'powered_by' => true
+            ],
+            'admin-addon-user-manager' => [
+                'enabled' => true,
+                'default_list_style' => 'list',
+                'pagination' => [
+                    'per_page' => '20'
+                ]
             ],
             'youtube' => [
                 'enabled' => true,
@@ -608,6 +592,22 @@ return [
                     'vq' => 'default'
                 ],
                 'privacy_enhanced_mode' => false
+            ],
+            'shortcode-core' => [
+                'enabled' => true,
+                'active' => true,
+                'active_admin' => true,
+                'parser' => 'regex',
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => true,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+                ]
+            ],
+            'page-inject' => [
+                'enabled' => true,
+                'active' => true,
+                'processed_content' => true
             ],
             'oe-schema' => [
                 'enabled' => true,
