@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/email/email.yaml',
-    'modified' => 1509321206,
+    'modified' => 1513554941,
     'data' => [
         'enabled' => true,
         'from' => NULL,

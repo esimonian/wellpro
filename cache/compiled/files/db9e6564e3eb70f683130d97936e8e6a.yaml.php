@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/tntsearch/blueprints.yaml',
-    'modified' => 1509319816,
+    'modified' => 1513554956,
     'data' => [
         'name' => 'TNT Search',
-        'version' => '1.1.0',
+        'version' => '1.2.0',
         'description' => 'Powerful indexed-based full text search engine powered by TNTSearch',
         'icon' => 'binoculars',
         'author' => [
@@ -104,10 +104,24 @@ return [
                     'classes' => 'fancy',
                     'label' => 'Search Type',
                     'help' => 'Configure how TNTSearch will use the search query term',
+                    'default' => 'auto',
                     'options' => [
-                        'default' => 'Default',
-                        'boolean' => 'Boolean',
-                        'fuzzy' => 'Fuzzy'
+                        'auto' => 'Auto',
+                        'basic' => 'Basic',
+                        'boolean' => 'Boolean'
+                    ]
+                ],
+                'fuzzy' => [
+                    'type' => 'toggle',
+                    'label' => 'Fuzzy Search',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
                     ]
                 ],
                 'stemmer' => [
@@ -129,6 +143,19 @@ return [
                 'display_route' => [
                     'type' => 'toggle',
                     'label' => 'Display Route',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'Enabled',
+                        0 => 'Disabled'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'live_uri_update' => [
+                    'type' => 'toggle',
+                    'label' => 'Live URI Update',
                     'highlight' => 1,
                     'default' => 1,
                     'options' => [
@@ -164,6 +191,21 @@ return [
                     'validate' => [
                         'type' => 'bool'
                     ]
+                ],
+                'limit' => [
+                    'type' => 'text',
+                    'label' => 'Results Limit',
+                    'default' => 20
+                ],
+                'min' => [
+                    'type' => 'text',
+                    'label' => 'Min Chars Before Search',
+                    'default' => 3
+                ],
+                'snippet' => [
+                    'type' => 'text',
+                    'label' => 'Results Text Limit',
+                    'default' => 300
                 ],
                 'index_page_by_default' => [
                     'type' => 'toggle',

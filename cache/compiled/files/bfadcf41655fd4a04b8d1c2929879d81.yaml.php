@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/taxonomylist/blueprints.yaml',
-    'modified' => 1509319816,
+    'modified' => 1513554953,
     'data' => [
         'name' => 'Taxonomy List',
-        'version' => '1.2.7',
+        'version' => '1.3.1',
         'description' => 'With the **TaxonomyList plugin** you can easily create list of **taxonomy** items such as **tags**, **categories**, etc.',
         'icon' => 'tag',
         'author' => [

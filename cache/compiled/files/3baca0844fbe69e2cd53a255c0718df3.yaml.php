@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/gantry5/blueprints.yaml',
-    'modified' => 1509321214,
+    'modified' => 1513554947,
     'data' => [
         'name' => 'Gantry 5 Framework',
-        'version' => '5.4.19',
+        'version' => '5.4.22',
         'description' => 'Theme framework.',
         'icon' => 'gantry',
         'author' => [

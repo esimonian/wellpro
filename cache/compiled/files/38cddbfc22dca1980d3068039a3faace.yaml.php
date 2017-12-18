@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/admin/languages/ca.yaml',
-    'modified' => 1509321201,
+    'modified' => 1513554936,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Aquesta és una versió beta! Utilitza-la en producció sota el teu propi risc...',

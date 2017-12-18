@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/admin/languages/en.yaml',
-    'modified' => 1509321201,
+    'modified' => 1513554936,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'This is a Beta release! Use this in production at your own risk...',
@@ -697,8 +697,10 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             '2FA_SECRET' => '2FA Secret',
             '2FA_SECRET_HELP' => 'Scan this QR code into your [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). Also it\'s a good idea to backup the secret in a safe location, in case you need to reinstall your app.  Check the [Grav docs](https://learn.getgrav.org/admin-panel/2fa) for more information ',
             '2FA_REGENERATE' => 'Regenerate',
-            'CASE_INSENSITIVE_URLS' => 'Case Insensitive URLs',
-            'CASE_INSENSITIVE_URLS_HELP' => 'Enables Grav routing to locate resources regardless of text case.'
+            'FORCE_LOWERCASE_URLS' => 'Force lowercase URLs',
+            'FORCE_LOWERCASE_URLS_HELP' => 'By default grav will set all slugs and routes to be lowercase.  With this set to false, Uppercase slugs and routes can be used',
+            'INTL_ENABLED' => 'Intl module integration',
+            'INTL_ENABLED_HELP' => 'Use Intl PHP module and collate to sort UTF8 based collections'
         ]
     ]
 ];

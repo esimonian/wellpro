@@ -89,7 +89,10 @@ class __TwigTemplate_63c7b363ed834ea908a51846e2bd7bf461fcaaef766c0e826625a39d661
 
                  <!-- entry author -->
                  <div class=\"entry-author-box clearfix\">
-                   <img src=\"/img/aboutsteph.jpg\" class=\"author-img\" alt=\"img\">
+                   <img src=\"";
+        // line 59
+        echo ($context["theme_url"] ?? null);
+        echo "/images/aboutsteph.jpg\" class=\"author-img\" alt=\"img\">
                    <div class=\"author-info\">
                      <h6 class=\"author-name\"><a href=\"#\">Author</a></h6>
                      <p class=\"mb-0\">bio</p>
@@ -117,7 +120,11 @@ class __TwigTemplate_63c7b363ed834ea908a51846e2bd7bf461fcaaef766c0e826625a39d661
          </article> <!-- end large post -->
        </div> <!-- end col -->
 
-     </div> <!-- end row -->
+       ";
+        // line 87
+        $this->loadTemplate("partials/sidebar.html.twig", "blog_post.html.twig", 87)->display($context);
+        // line 88
+        echo "     </div> <!-- end row -->
    </div> <!-- end container -->
   </section> <!-- end content -->
 ";
@@ -135,7 +142,7 @@ class __TwigTemplate_63c7b363ed834ea908a51846e2bd7bf461fcaaef766c0e826625a39d661
 
     public function getDebugInfo()
     {
-        return array (  61 => 29,  46 => 17,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  127 => 88,  125 => 87,  94 => 59,  61 => 29,  46 => 17,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -206,7 +213,7 @@ class __TwigTemplate_63c7b363ed834ea908a51846e2bd7bf461fcaaef766c0e826625a39d661
 
                  <!-- entry author -->
                  <div class=\"entry-author-box clearfix\">
-                   <img src=\"/img/aboutsteph.jpg\" class=\"author-img\" alt=\"img\">
+                   <img src=\"{{ theme_url }}/images/aboutsteph.jpg\" class=\"author-img\" alt=\"img\">
                    <div class=\"author-info\">
                      <h6 class=\"author-name\"><a href=\"#\">Author</a></h6>
                      <p class=\"mb-0\">bio</p>
@@ -234,6 +241,7 @@ class __TwigTemplate_63c7b363ed834ea908a51846e2bd7bf461fcaaef766c0e826625a39d661
          </article> <!-- end large post -->
        </div> <!-- end col -->
 
+       {% include 'partials/sidebar.html.twig' %}
      </div> <!-- end row -->
    </div> <!-- end container -->
   </section> <!-- end content -->

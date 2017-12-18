@@ -1,193 +1,193 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1509576415,
-    'checksum' => 'f8200a3417d6d6113569725a3b2e3ce8',
+    'timestamp' => 1513554956,
+    'checksum' => '3a32dcf313e09ff8e5ea767cec969bf5',
     'files' => [
         'user/config' => [
             'groups' => [
                 'file' => 'user/config/groups.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/admin' => [
                 'file' => 'user/config/plugins/admin.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/admin-addon-user-manager' => [
                 'file' => 'user/config/plugins/admin-addon-user-manager.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/config/plugins/breadcrumbs.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/git-sync' => [
                 'file' => 'user/config/plugins/git-sync.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/oe-schema' => [
                 'file' => 'user/config/plugins/oe-schema.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/config/plugins/relatedpages.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/config/plugins/taxonomylist.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1509576127
+                'modified' => 1509424927
             ],
             'themes/antimatter-open-publishing' => [
                 'file' => 'user/config/themes/antimatter-open-publishing.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'themes/g5_hydrogen' => [
                 'file' => 'user/config/themes/g5_hydrogen.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'themes/niazi' => [
                 'file' => 'user/config/themes/niazi.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554936
             ],
             'plugins/admin-addon-user-manager' => [
                 'file' => 'user/plugins/admin-addon-user-manager/admin-addon-user-manager.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554939
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/archives.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
-                'modified' => 1509576127
+                'modified' => 1509321204
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1509576127
+                'modified' => 1509320637
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554941
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/external_links' => [
                 'file' => 'user/plugins/external_links/external_links.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/feed.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554943
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/gantry5.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554947
             ],
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/git-sync.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554950
             ],
             'plugins/markdown-fontawesome' => [
                 'file' => 'user/plugins/markdown-fontawesome/markdown-fontawesome.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/page-inject' => [
                 'file' => 'user/plugins/page-inject/page-inject.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554951
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/pagination.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/relatedpages.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/shortcode-ui' => [
                 'file' => 'user/plugins/shortcode-ui/shortcode-ui.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554953
             ],
             'plugins/tntsearch' => [
                 'file' => 'user/plugins/tntsearch/tntsearch.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554956
             ],
             'plugins/youtube' => [
                 'file' => 'user/plugins/youtube/youtube.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ]
         ]
     ],
@@ -423,31 +423,9 @@ return [
                 'route_profile' => '/user_profile',
                 'route_register' => '/user_register',
                 'route_unauthorized' => '/user_unauthorized',
+                'dynamic_page_visibility' => false,
                 'parent_acl' => false,
                 'protect_protected_page_media' => false,
-                'user_registration' => [
-                    'enabled' => true,
-                    'fields' => [
-                        0 => 'username',
-                        1 => 'password',
-                        2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title'
-                    ],
-                    'access' => [
-                        'site' => [
-                            'login' => 'true'
-                        ]
-                    ],
-                    'options' => [
-                        'validate_password1_and_password2' => true,
-                        'set_user_disabled' => false,
-                        'login_after_registration' => true,
-                        'send_activation_email' => false,
-                        'send_notification_email' => false,
-                        'send_welcome_email' => false
-                    ]
-                ],
                 'rememberme' => [
                     'enabled' => true,
                     'timeout' => 604800,
@@ -456,7 +434,35 @@ return [
                 'max_pw_resets_count' => 0,
                 'max_pw_resets_interval' => 60,
                 'max_login_count' => 0,
-                'max_login_interval' => 2
+                'max_login_interval' => 2,
+                'user_registration' => [
+                    'enabled' => true,
+                    'fields' => [
+                        0 => 'username',
+                        1 => 'password',
+                        2 => 'email',
+                        3 => 'fullname',
+                        4 => 'title',
+                        5 => 'level'
+                    ],
+                    'default_values' => [
+                        'level' => 'Newbie'
+                    ],
+                    'access' => [
+                        'site' => [
+                            'login' => 'true'
+                        ]
+                    ],
+                    'redirect_after_registration' => '',
+                    'options' => [
+                        'validate_password1_and_password2' => true,
+                        'set_user_disabled' => false,
+                        'login_after_registration' => true,
+                        'send_activation_email' => false,
+                        'send_notification_email' => false,
+                        'send_welcome_email' => false
+                    ]
+                ]
             ],
             'markdown-fontawesome' => [
                 'enabled' => true
@@ -576,11 +582,16 @@ return [
                 'built_in_css' => true,
                 'built_in_js' => true,
                 'built_in_search_page' => true,
-                'search_type' => 'default',
+                'search_type' => 'auto',
+                'fuzzy' => false,
                 'stemmer' => 'default',
                 'display_route' => true,
                 'display_hits' => true,
                 'display_time' => true,
+                'live_uri_update' => true,
+                'limit' => 20,
+                'min' => 3,
+                'snippet' => 300,
                 'index_page_by_default' => true,
                 'filter' => NULL,
                 'powered_by' => true
@@ -941,9 +952,11 @@ return [
             'wrapped_site' => false,
             'reverse_proxy_setup' => false,
             'force_ssl' => false,
+            'force_lowercase_urls' => true,
             'custom_base_url' => '',
             'username_regex' => '^[a-z0-9_-]{3,16}$',
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
+            'intl_enabled' => true,
             'languages' => [
                 'supported' => [
                     

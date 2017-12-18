@@ -1,131 +1,131 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1509576415,
-    'checksum' => '6c7c47a6bedfbd146dd68b5c650a4e4b',
+    'timestamp' => 1513554956,
+    'checksum' => '1552c19bf4eae5bc4daf34e1f2e3f21d',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1509576126
+                'modified' => 1513554925
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554936
             ],
             'plugins/admin-addon-user-manager' => [
                 'file' => 'user/plugins/admin-addon-user-manager/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554939
             ],
             'plugins/archives' => [
                 'file' => 'user/plugins/archives/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509321204
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509320637
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554941
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/external_links' => [
                 'file' => 'user/plugins/external_links/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/feed' => [
                 'file' => 'user/plugins/feed/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319815
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554943
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554947
             ],
             'plugins/git-sync' => [
                 'file' => 'user/plugins/git-sync/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554950
             ],
             'plugins/markdown-fontawesome' => [
                 'file' => 'user/plugins/markdown-fontawesome/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/oerschema' => [
                 'file' => 'user/plugins/oerschema/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509321438
             ],
             'plugins/page-inject' => [
                 'file' => 'user/plugins/page-inject/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554951
             ],
             'plugins/pagination' => [
                 'file' => 'user/plugins/pagination/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/relatedpages' => [
                 'file' => 'user/plugins/relatedpages/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/plugins/shortcode-core/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/shortcode-ui' => [
                 'file' => 'user/plugins/shortcode-ui/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ],
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554953
             ],
             'plugins/tntsearch' => [
                 'file' => 'user/plugins/tntsearch/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1513554956
             ],
             'plugins/youtube' => [
                 'file' => 'user/plugins/youtube/blueprints.yaml',
-                'modified' => 1509576127
+                'modified' => 1509319816
             ]
         ]
     ],
@@ -1734,6 +1734,20 @@ return [
                 'name' => 'system.pwd_regex',
                 'validation' => 'loose'
             ],
+            'system.intl_enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.INTL_ENABLED',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.intl_enabled',
+                'validation' => 'loose'
+            ],
             'system.wrapped_site' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.WRAPPED_SITE',
@@ -1762,20 +1776,6 @@ return [
                 'name' => 'system.absolute_urls',
                 'validation' => 'loose'
             ],
-            'system.case_insensitive_urls' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.CASE_INSENSITIVE_URLS',
-                'highlight' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.YES',
-                    0 => 'PLUGIN_ADMIN.NO'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'system.case_insensitive_urls',
-                'validation' => 'loose'
-            ],
             'system.param_sep' => [
                 'type' => 'select',
                 'size' => 'medium',
@@ -1801,6 +1801,21 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'system.force_ssl',
+                'validation' => 'loose'
+            ],
+            'system.force_lowercase_urls' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.FORCE_LOWERCASE_URLS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.force_lowercase_urls',
                 'validation' => 'loose'
             ],
             'system.custom_base_url' => [
@@ -3815,6 +3830,21 @@ return [
                 'name' => 'plugins.login.parent_acl',
                 'validation' => 'loose'
             ],
+            'plugins.login.dynamic_page_visibility' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.login.dynamic_page_visibility',
+                'validation' => 'loose'
+            ],
             'plugins.login.protect_protected_page_media' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_LOGIN.PROTECT_PROTECTED_PAGE_MEDIA_LABEL',
@@ -5051,12 +5081,28 @@ return [
                 'size' => 'small',
                 'classes' => 'fancy',
                 'label' => 'Search Type',
+                'default' => 'auto',
                 'options' => [
-                    'default' => 'Default',
-                    'boolean' => 'Boolean',
-                    'fuzzy' => 'Fuzzy'
+                    'auto' => 'Auto',
+                    'basic' => 'Basic',
+                    'boolean' => 'Boolean'
                 ],
                 'name' => 'plugins.tntsearch.search_type',
+                'validation' => 'strict'
+            ],
+            'plugins.tntsearch.fuzzy' => [
+                'type' => 'toggle',
+                'label' => 'Fuzzy Search',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.tntsearch.fuzzy',
                 'validation' => 'strict'
             ],
             'plugins.tntsearch.stemmer' => [
@@ -5091,6 +5137,21 @@ return [
                 'name' => 'plugins.tntsearch.display_route',
                 'validation' => 'strict'
             ],
+            'plugins.tntsearch.live_uri_update' => [
+                'type' => 'toggle',
+                'label' => 'Live URI Update',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.tntsearch.live_uri_update',
+                'validation' => 'strict'
+            ],
             'plugins.tntsearch.display_hits' => [
                 'type' => 'toggle',
                 'label' => 'Display Hits',
@@ -5119,6 +5180,27 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.tntsearch.display_time',
+                'validation' => 'strict'
+            ],
+            'plugins.tntsearch.limit' => [
+                'type' => 'text',
+                'label' => 'Results Limit',
+                'default' => 20,
+                'name' => 'plugins.tntsearch.limit',
+                'validation' => 'strict'
+            ],
+            'plugins.tntsearch.min' => [
+                'type' => 'text',
+                'label' => 'Min Chars Before Search',
+                'default' => 3,
+                'name' => 'plugins.tntsearch.min',
+                'validation' => 'strict'
+            ],
+            'plugins.tntsearch.snippet' => [
+                'type' => 'text',
+                'label' => 'Results Text Limit',
+                'default' => 300,
+                'name' => 'plugins.tntsearch.snippet',
                 'validation' => 'strict'
             ],
             'plugins.tntsearch.index_page_by_default' => [
@@ -5656,11 +5738,12 @@ return [
                 'reverse_proxy_setup' => 'system.reverse_proxy_setup',
                 'username_regex' => 'system.username_regex',
                 'pwd_regex' => 'system.pwd_regex',
+                'intl_enabled' => 'system.intl_enabled',
                 'wrapped_site' => 'system.wrapped_site',
                 'absolute_urls' => 'system.absolute_urls',
-                'case_insensitive_urls' => 'system.case_insensitive_urls',
                 'param_sep' => 'system.param_sep',
                 'force_ssl' => 'system.force_ssl',
+                'force_lowercase_urls' => 'system.force_lowercase_urls',
                 'custom_base_url' => 'system.custom_base_url'
             ],
             'plugins' => [
@@ -5894,6 +5977,7 @@ return [
                     'route_reset' => 'plugins.login.route_reset',
                     'route_profile' => 'plugins.login.route_profile',
                     'parent_acl' => 'plugins.login.parent_acl',
+                    'dynamic_page_visibility' => 'plugins.login.dynamic_page_visibility',
                     'protect_protected_page_media' => 'plugins.login.protect_protected_page_media',
                     'routes' => 'plugins.login.routes',
                     'route_activate' => 'plugins.login.route_activate',
@@ -6040,10 +6124,15 @@ return [
                     'search_route' => 'plugins.tntsearch.search_route',
                     'query_route' => 'plugins.tntsearch.query_route',
                     'search_type' => 'plugins.tntsearch.search_type',
+                    'fuzzy' => 'plugins.tntsearch.fuzzy',
                     'stemmer' => 'plugins.tntsearch.stemmer',
                     'display_route' => 'plugins.tntsearch.display_route',
+                    'live_uri_update' => 'plugins.tntsearch.live_uri_update',
                     'display_hits' => 'plugins.tntsearch.display_hits',
                     'display_time' => 'plugins.tntsearch.display_time',
+                    'limit' => 'plugins.tntsearch.limit',
+                    'min' => 'plugins.tntsearch.min',
+                    'snippet' => 'plugins.tntsearch.snippet',
                     'index_page_by_default' => 'plugins.tntsearch.index_page_by_default',
                     'filter' => [
                         'items' => 'plugins.tntsearch.filter.items'

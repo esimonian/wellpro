@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/admin/blueprints.yaml',
-    'modified' => 1509321201,
+    'modified' => 1513554936,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.6.6',
+        'version' => '1.6.7',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -21,19 +21,19 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.3.8'
+                'version' => '>=1.3.9'
             ],
             1 => [
                 'name' => 'form',
-                'version' => '>=2.9.0'
+                'version' => '>=2.11.0'
             ],
             2 => [
-                'name' => 'email',
-                'version' => '~2.0'
+                'name' => 'login',
+                'version' => '>=2.5.0'
             ],
             3 => [
-                'name' => 'login',
-                'version' => '>=2.4.0'
+                'name' => 'email',
+                'version' => '~2.0'
             ]
         ],
         'form' => [

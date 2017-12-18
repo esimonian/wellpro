@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/system/config/system.yaml',
-    'modified' => 1509321188,
+    'modified' => 1513554925,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -11,9 +11,11 @@ return [
         'wrapped_site' => false,
         'reverse_proxy_setup' => false,
         'force_ssl' => false,
+        'force_lowercase_urls' => true,
         'custom_base_url' => '',
         'username_regex' => '^[a-z0-9_-]{3,16}$',
         'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
+        'intl_enabled' => true,
         'languages' => [
             'supported' => [
                 

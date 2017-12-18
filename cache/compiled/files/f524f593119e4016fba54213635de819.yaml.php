@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/themes/g5_hydrogen/blueprints.yaml',
-    'modified' => 1509321445,
+    'modified' => 1513554971,
     'data' => [
         'name' => 'Hydrogen',
-        'version' => '5.4.19',
+        'version' => '5.4.22',
         'description' => 'Default Gantry 5 theme.',
         'icon' => 'gantry',
         'author' => [

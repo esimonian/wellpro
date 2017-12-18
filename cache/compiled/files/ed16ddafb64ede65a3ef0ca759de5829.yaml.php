@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/tntsearch/tntsearch.yaml',
-    'modified' => 1509319816,
+    'modified' => 1513554956,
     'data' => [
         'enabled' => true,
         'search_route' => '/search',
@@ -10,11 +10,16 @@ return [
         'built_in_css' => true,
         'built_in_js' => true,
         'built_in_search_page' => true,
-        'search_type' => 'default',
+        'search_type' => 'auto',
+        'fuzzy' => false,
         'stemmer' => 'default',
         'display_route' => true,
         'display_hits' => true,
         'display_time' => true,
+        'live_uri_update' => true,
+        'limit' => 20,
+        'min' => 3,
+        'snippet' => 300,
         'index_page_by_default' => true,
         'filter' => NULL,
         'powered_by' => true

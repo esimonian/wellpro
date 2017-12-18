@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/system/languages/fr.yaml',
-    'modified' => 1509321188,
+    'modified' => 1513554925,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s

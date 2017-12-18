@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/email/languages.yaml',
-    'modified' => 1509321206,
+    'modified' => 1513554941,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [
@@ -63,8 +63,11 @@ return [
         ],
         'ru' => [
             'PLUGIN_EMAIL' => [
+                'EMAIL_NOT_CONFIGURED' => 'Электронная почта не настроена',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Пожалуйста настройте адрес получателя (\'to\') в настройках плагина Email Plugin, или на форме',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме'
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме',
+                'TEST_EMAIL_BODY' => '<h1>Тестирование электронной почты</h1><p>Это тестовое письмо отправлено на основе следующей конфигурации:</p>  <p><pre>%1$s</pre></p>',
+                'EMAIL_FOOTER' => 'GetGrav.org'
             ]
         ]
     ]

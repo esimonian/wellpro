@@ -23,7 +23,11 @@ class __TwigTemplate_68abadcdd6a8396ea29567ed7a2286b6719281e2eb18321229c720c7191
         // line 3
         if ($this->getAttribute(($context["context"] ?? null), "folderExists", array())) {
             // line 4
-            echo "<div class=\"form-field grid vertical\">
+            echo "<div class=\"form-field grid vertical ";
+            if ($this->getAttribute(($context["field"] ?? null), "classes", array(), "any", true, true)) {
+                echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "classes", array()), "html", null, true);
+            }
+            echo "\">
     <div class=\"form-label\">
         <label>";
             // line 6
@@ -108,7 +112,7 @@ class __TwigTemplate_68abadcdd6a8396ea29567ed7a2286b6719281e2eb18321229c720c7191
 
     public function getDebugInfo()
     {
-        return array (  90 => 28,  85 => 25,  80 => 22,  72 => 20,  70 => 19,  65 => 17,  61 => 16,  57 => 15,  51 => 14,  45 => 13,  41 => 11,  38 => 10,  36 => 9,  30 => 6,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  94 => 28,  89 => 25,  84 => 22,  76 => 20,  74 => 19,  69 => 17,  65 => 16,  61 => 15,  55 => 14,  49 => 13,  45 => 11,  42 => 10,  40 => 9,  34 => 6,  26 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -124,7 +128,7 @@ class __TwigTemplate_68abadcdd6a8396ea29567ed7a2286b6719281e2eb18321229c720c7191
         return new Twig_Source("{% set value = (value is null ? field.default : value) %}
 
 {% if context.folderExists %}
-<div class=\"form-field grid vertical\">
+<div class=\"form-field grid vertical {% if field.classes is defined %}{{ field.classes }}{% endif %}\">
     <div class=\"form-label\">
         <label>{{ field.label|tu }}</label>
     </div>

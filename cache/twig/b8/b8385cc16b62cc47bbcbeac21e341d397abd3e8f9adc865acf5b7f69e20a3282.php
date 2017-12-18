@@ -115,12 +115,8 @@ class __TwigTemplate_b787cc728a0250a8bcb975ddf8385b9da115235f2465047a7bb3157e1ff
                 echo "disabled=\"disabled\"";
             }
             // line 32
-            echo "                   ";
-            if ($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "required", array())) {
-                echo "required=\"required\"";
-            }
-            // line 33
-            echo "            >
+            echo "
+            >
             <label style=\"display: inline\" for=\"";
             // line 34
             echo twig_escape_filter($this->env, ($context["id"] ?? null));
@@ -164,7 +160,7 @@ class __TwigTemplate_b787cc728a0250a8bcb975ddf8385b9da115235f2465047a7bb3157e1ff
 
     public function getDebugInfo()
     {
-        return array (  146 => 40,  140 => 38,  132 => 36,  130 => 35,  126 => 34,  123 => 33,  118 => 32,  113 => 31,  106 => 30,  102 => 29,  98 => 28,  94 => 27,  90 => 26,  85 => 24,  82 => 23,  79 => 22,  76 => 21,  73 => 20,  70 => 19,  68 => 18,  65 => 17,  60 => 16,  57 => 15,  51 => 12,  47 => 11,  42 => 10,  39 => 9,  35 => 1,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  11 => 1,);
+        return array (  142 => 40,  136 => 38,  128 => 36,  126 => 35,  122 => 34,  118 => 32,  113 => 31,  106 => 30,  102 => 29,  98 => 28,  94 => 27,  90 => 26,  85 => 24,  82 => 23,  79 => 22,  76 => 21,  73 => 20,  70 => 19,  68 => 18,  65 => 17,  60 => 16,  57 => 15,  51 => 12,  47 => 11,  42 => 10,  39 => 9,  35 => 1,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -208,7 +204,7 @@ class __TwigTemplate_b787cc728a0250a8bcb975ddf8385b9da115235f2465047a7bb3157e1ff
                    {% if checked %}checked=\"checked\"{% endif %}
                    {% if field.classes is defined %}class=\"{{ field.classes }}\" {% endif %}
                    {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
-                   {% if field.validate.required %}required=\"required\"{% endif %}
+
             >
             <label style=\"display: inline\" for=\"{{ id|e }}\">
                 {% if help %}

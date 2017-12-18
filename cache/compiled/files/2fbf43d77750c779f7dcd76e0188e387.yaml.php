@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/system/languages/fi.yaml',
-    'modified' => 1509321188,
+    'modified' => 1513554925,
     'data' => [
         'NICETIME' => [
             'NO_DATE_PROVIDED' => 'Päivämäärää ei annettu',

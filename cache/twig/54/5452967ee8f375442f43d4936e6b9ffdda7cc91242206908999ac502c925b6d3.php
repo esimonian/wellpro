@@ -22,14 +22,26 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
         // line 3
         $context["canOrder"] = $this->getAttribute(($context["data"] ?? null), "order", array());
         // line 4
+        $context["vertical"] = ($this->getAttribute(($context["field"] ?? null), "style", array()) == "vertical");
+        // line 5
         echo "
-<div class=\"form-field grid pure-g\">
-    <div class=\"form-label block size-1-3 pure-u-1-3\">
+<div class=\"form-field grid pure-g";
+        // line 6
+        if (($context["vertical"] ?? null)) {
+            echo " vertical";
+        }
+        echo "\">
+    <div class=\"form-label";
+        // line 7
+        if ( !($context["vertical"] ?? null)) {
+            echo " block size-1-3 pure-u-1-3";
+        }
+        echo "\">
         <label>
             ";
-        // line 8
+        // line 9
         if ($this->getAttribute(($context["field"] ?? null), "help", array())) {
-            // line 9
+            // line 10
             echo "            <span class=\"tooltip\" data-asTooltip-position=\"w\" title=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->tuFilter(twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "help", array()))), "html", null, true);
             echo "\">";
@@ -37,21 +49,26 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
             echo "</span>
             ";
         } else {
-            // line 11
+            // line 12
             echo "            ";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->tuFilter($this->getAttribute(($context["field"] ?? null), "label", array())), "html", null, true);
             echo "
             ";
         }
-        // line 13
+        // line 14
         echo "            ";
         echo ((twig_in_filter($this->getAttribute($this->getAttribute(($context["field"] ?? null), "validate", array()), "required", array()), array(0 => "on", 1 => "true", 2 => 1))) ? ("<span class=\"required\">*</span>") : (""));
         echo "
         </label>
     </div>
-    <div class=\"form-data block size-2-3 pure-u-2-3\">
-        <div class=\"form-order-wrapper ";
+    <div class=\"form-data";
         // line 17
+        if ( !($context["vertical"] ?? null)) {
+            echo " block size-2-3 pure-u-2-3";
+        }
+        echo "\">
+        <div class=\"form-order-wrapper ";
+        // line 18
         echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "size", array()), "html", null, true);
         echo "\">
 
@@ -59,38 +76,38 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
                 type=\"hidden\"
                 data-order
                 ";
-        // line 22
+        // line 23
         if (($this->getAttribute(($context["field"] ?? null), "disabled", array()) || ($context["isDisabledToggleable"] ?? null))) {
             echo "disabled=\"disabled\"";
         }
-        // line 23
+        // line 24
         echo "                name=\"";
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute(($context["field"] ?? null), "name", array()))), "html", null, true);
         echo "\"
                 value=\"\" />
             ";
-        // line 25
+        // line 26
         if ( !($context["canOrder"] ?? null)) {
-            // line 26
+            // line 27
             echo "                <div class=\"notice\">";
             echo $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.ORDERING_DISABLED_BECAUSE_PAGE_NO_PREFIX");
             echo "</div>
             ";
         }
-        // line 28
+        // line 29
         echo "
             ";
-        // line 29
+        // line 30
         if ((twig_length_filter($this->env, ($context["siblings"] ?? null)) < 200)) {
-            // line 30
+            // line 31
             echo "                ";
             $context["sortable_count"] = 0;
-            // line 31
+            // line 32
             echo "\t\t\t\t<ul id=\"ordering\" class=\"orderable ";
             echo twig_escape_filter($this->env, $this->getAttribute(($context["field"] ?? null), "classes", array()), "html", null, true);
             echo "\">
 \t\t\t    ";
-            // line 32
+            // line 33
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["siblings"] ?? null));
             $context['loop'] = array(
@@ -101,7 +118,7 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
             );
             foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
                 if ($this->getAttribute($context["page"], "order", array())) {
-                    // line 33
+                    // line 34
                     echo "\t\t\t\t\t<li class=\"drag-handle\" data-id=\"";
                     echo twig_escape_filter($this->env, $this->getAttribute($context["page"], "slug", array()), "html", null, true);
                     echo "\" ";
@@ -114,9 +131,9 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
                     echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->getPageUrl($context, $context["page"]), "html", null, true);
                     echo "\"><i class=\"fa fa-external-link\"></i></a></li>
                     ";
-                    // line 34
-                    $context["sortable_count"] = $this->getAttribute($context["loop"], "index", array());
                     // line 35
+                    $context["sortable_count"] = $this->getAttribute($context["loop"], "index", array());
+                    // line 36
                     echo "                ";
                     ++$context['loop']['index0'];
                     ++$context['loop']['index'];
@@ -126,21 +143,21 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 36
+            // line 37
             echo "\t\t\t\t</ul>
                 ";
-            // line 37
+            // line 38
             if ((($context["sortable_count"] ?? null) < twig_length_filter($this->env, ($context["siblings"] ?? null)))) {
-                // line 38
+                // line 39
                 echo "                <label>Unsortable Pages</label>
                 <ul class=\"orderable disabled\">
                     ";
-                // line 40
+                // line 41
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable(($context["siblings"] ?? null));
                 foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
                     if ( !$this->getAttribute($context["page"], "order", array())) {
-                        // line 41
+                        // line 42
                         echo "                        <li ";
                         echo ((($this->getAttribute($context["page"], "slug", array()) == $this->getAttribute(($context["data"] ?? null), "slug", array()))) ? ("data-active-id") : (""));
                         echo ">";
@@ -154,20 +171,20 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 43
+                // line 44
                 echo "                </ul>
                 ";
             }
-            // line 45
+            // line 46
             echo "\t\t\t";
         } else {
-            // line 46
+            // line 47
             echo "                <div class=\"notice\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Plugin\Admin\AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.ORDERING_DISABLED_BECAUSE_TOO_MANY_SIBLINGS"), "html", null, true);
             echo "</div>
 \t\t\t";
         }
-        // line 48
+        // line 49
         echo "        </div>
     </div>
 </div>
@@ -186,7 +203,7 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
 
     public function getDebugInfo()
     {
-        return array (  171 => 48,  165 => 46,  162 => 45,  158 => 43,  144 => 41,  139 => 40,  135 => 38,  133 => 37,  130 => 36,  120 => 35,  118 => 34,  105 => 33,  94 => 32,  89 => 31,  86 => 30,  84 => 29,  81 => 28,  75 => 26,  73 => 25,  67 => 23,  63 => 22,  55 => 17,  47 => 13,  41 => 11,  33 => 9,  31 => 8,  25 => 4,  23 => 3,  21 => 2,  19 => 1,);
+        return array (  188 => 49,  182 => 47,  179 => 46,  175 => 44,  161 => 42,  156 => 41,  152 => 39,  150 => 38,  147 => 37,  137 => 36,  135 => 35,  122 => 34,  111 => 33,  106 => 32,  103 => 31,  101 => 30,  98 => 29,  92 => 27,  90 => 26,  84 => 24,  80 => 23,  72 => 18,  66 => 17,  59 => 14,  53 => 12,  45 => 10,  43 => 9,  36 => 7,  30 => 6,  27 => 5,  25 => 4,  23 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -202,9 +219,10 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
         return new Twig_Source("{% set value = (value is null ? field.default : value) %}
 {% set siblings = data.parent.children %}
 {% set canOrder = data.order %}
+{% set vertical = field.style == 'vertical' %}
 
-<div class=\"form-field grid pure-g\">
-    <div class=\"form-label block size-1-3 pure-u-1-3\">
+<div class=\"form-field grid pure-g{% if vertical %} vertical{% endif %}\">
+    <div class=\"form-label{% if not vertical %} block size-1-3 pure-u-1-3{% endif %}\">
         <label>
             {% if field.help %}
             <span class=\"tooltip\" data-asTooltip-position=\"w\" title=\"{{ field.help|e|tu }}\">{{ field.label|tu }}</span>
@@ -214,7 +232,7 @@ class __TwigTemplate_52df2c6a062981f0175b462e2baff762870db502f2cd06155161b0104fc
             {{ field.validate.required in ['on', 'true', 1] ? '<span class=\"required\">*</span>' }}
         </label>
     </div>
-    <div class=\"form-data block size-2-3 pure-u-2-3\">
+    <div class=\"form-data{% if not vertical %} block size-2-3 pure-u-2-3{% endif %}\">
         <div class=\"form-order-wrapper {{ field.size }}\">
 
             <input

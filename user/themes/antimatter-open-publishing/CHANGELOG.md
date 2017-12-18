@@ -1,3 +1,38 @@
+# v1.1.8
+## 12/04/2017
+
+1. [](#new)
+    * Added scripts template to hold global JavaScript code
+
+# v1.1.7
+## 11/23/2017
+
+1. [](#new)
+    * Added example 'Twitter Feed' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added example 'Embed.ly Card' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added support for modular page content to be displayed above blog entry list
+    * Added example 'highlight-item' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added example 'reminders' page in '_demo' pages folder for use with included Page Inject plugin
+    * Added support for blog header image credit storage in external meta file
+1. [](#improved)
+    * Updated embed.ly card page template and blueprint with alignment option
+1. [](#bugfix)
+    * Fixed modular 'default' template
+        *
+# v1.1.6
+## 11/19/2017
+
+1. [](#improved)
+    * Revised name of sidebar folder from 'sidebar-markdown-widget' to 'sidebar'
+
+# v1.1.5
+## 11/09/2017
+
+1. [](#new)
+    * Added experimental embed.ly card page template
+    * Added experimental Twitter feed page template
+    * Added blog list page metadata blueprint
+
 # v1.1.4
 ## 10/26/2017
 

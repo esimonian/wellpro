@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/login/blueprints.yaml',
-    'modified' => 1509321217,
+    'modified' => 1513554950,
     'data' => [
         'name' => 'Login',
-        'version' => '2.4.3',
+        'version' => '2.5.0',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -20,7 +20,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.3.5'
+                'version' => '>=1.3.9'
             ],
             1 => [
                 'name' => 'form',
@@ -107,6 +107,20 @@ return [
                                     'highlight' => 1,
                                     'default' => 0,
                                     'help' => 'PLUGIN_LOGIN.USE_PARENT_ACL_HELP',
+                                    'options' => [
+                                        1 => 'PLUGIN_ADMIN.ENABLED',
+                                        0 => 'PLUGIN_ADMIN.DISABLED'
+                                    ],
+                                    'validate' => [
+                                        'type' => 'bool'
+                                    ]
+                                ],
+                                'dynamic_page_visibility' => [
+                                    'type' => 'toggle',
+                                    'label' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY',
+                                    'highlight' => 0,
+                                    'default' => 0,
+                                    'help' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY_HELP',
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'

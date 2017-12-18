@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/themes/antimatter-open-publishing/blueprints.yaml',
-    'modified' => 1509321442,
+    'modified' => 1513554969,
     'data' => [
         'name' => 'Antimatter Open Publishing',
-        'version' => '1.1.4',
+        'version' => '1.1.8',
         'description' => 'A customized version of the Antimatter theme with Git Sync and \'chromeless\' mode (as shown in screenshot).',
         'icon' => 'unlock',
         'author' => [

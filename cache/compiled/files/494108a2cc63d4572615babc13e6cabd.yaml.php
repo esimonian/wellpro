@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/system/languages/hr.yaml',
-    'modified' => 1509321188,
+    'modified' => 1513554925,
     'data' => [
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'oprema',

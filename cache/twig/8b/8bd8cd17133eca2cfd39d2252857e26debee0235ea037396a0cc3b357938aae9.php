@@ -62,8 +62,8 @@ class __TwigTemplate_e60d91abed49520c5b6fa0c6eb83b228ce0a758eb3233c64980a69e8244
             <div class=\"collapse navbar-collapse text-center\" id=\"navbar-collapse\">
 
               <ul class=\"nav navbar-nav\">
-              <li><a href=\"#\">
-                Test
+              <li><a href=\"/\">
+                Home
               </a></li>
             <!--
                 <li class=\"dropdown active\">
@@ -111,7 +111,11 @@ class __TwigTemplate_e60d91abed49520c5b6fa0c6eb83b228ce0a758eb3233c64980a69e8244
     <div class=\"container\">
       <div class=\"logo-container text-center\">
         <div class=\"logo-wrap\">
-          <a href=\"index.html\">
+          <a href=\"/\">
+            <img class=\"logo-dark\" src=\"";
+        // line 97
+        echo ($context["theme_url"] ?? null);
+        echo "/images/wellprologo2017small.png\" alt=\"logo\" style=\"max-width: 200px;\">
           </a>
         </div>
       </div>
@@ -125,9 +129,14 @@ class __TwigTemplate_e60d91abed49520c5b6fa0c6eb83b228ce0a758eb3233c64980a69e8244
         return "partials/header.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  117 => 97,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -186,8 +195,8 @@ class __TwigTemplate_e60d91abed49520c5b6fa0c6eb83b228ce0a758eb3233c64980a69e8244
             <div class=\"collapse navbar-collapse text-center\" id=\"navbar-collapse\">
 
               <ul class=\"nav navbar-nav\">
-              <li><a href=\"#\">
-                Test
+              <li><a href=\"/\">
+                Home
               </a></li>
             <!--
                 <li class=\"dropdown active\">
@@ -235,7 +244,8 @@ class __TwigTemplate_e60d91abed49520c5b6fa0c6eb83b228ce0a758eb3233c64980a69e8244
     <div class=\"container\">
       <div class=\"logo-container text-center\">
         <div class=\"logo-wrap\">
-          <a href=\"index.html\">
+          <a href=\"/\">
+            <img class=\"logo-dark\" src=\"{{ theme_url }}/images/wellprologo2017small.png\" alt=\"logo\" style=\"max-width: 200px;\">
           </a>
         </div>
       </div>

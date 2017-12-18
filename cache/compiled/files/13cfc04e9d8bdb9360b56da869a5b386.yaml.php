@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/page-inject/blueprints.yaml',
-    'modified' => 1509319816,
+    'modified' => 1513554951,
     'data' => [
         'name' => 'Page Inject',
-        'version' => '1.2.0',
+        'version' => '1.3.0',
         'description' => '**Page Inject** is a powerful plugin that lets you inject entire pages or page content into other pages using simple markdown syntax',
         'icon' => 'trello',
         'author' => [

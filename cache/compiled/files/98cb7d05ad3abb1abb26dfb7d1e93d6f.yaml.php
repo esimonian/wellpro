@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/elizabethsimonian/freelance/wellpro/user/plugins/admin-addon-user-manager/blueprints.yaml',
-    'modified' => 1509319815,
+    'modified' => 1513554939,
     'data' => [
         'name' => 'Admin Addon User Manager',
-        'version' => '1.8.1',
+        'version' => '1.9.0',
         'description' => 'A simple admin panel extension which adds the option to manage users and groups',
         'icon' => 'plug',
         'author' => [

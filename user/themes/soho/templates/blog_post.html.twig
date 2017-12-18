@@ -56,7 +56,7 @@
 
                  <!-- entry author -->
                  <div class="entry-author-box clearfix">
-                   <img src="/img/aboutsteph.jpg" class="author-img" alt="img">
+                   <img src="{{ theme_url }}/images/aboutsteph.jpg" class="author-img" alt="img">
                    <div class="author-info">
                      <h6 class="author-name"><a href="#">Author</a></h6>
                      <p class="mb-0">bio</p>
@@ -84,6 +84,7 @@
          </article> <!-- end large post -->
        </div> <!-- end col -->
 
+       {% include 'partials/sidebar.html.twig' %}
      </div> <!-- end row -->
    </div> <!-- end container -->
   </section> <!-- end content -->
