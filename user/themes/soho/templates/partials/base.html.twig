@@ -32,7 +32,7 @@
         {% do assets.addJs('theme://js/plugins.js') %}
         {% do assets.addJs('theme://js/scripts.js') %}
     {% endblock %}
-    
+
 
 {% endblock head%}
 </head>
@@ -59,14 +59,14 @@
   </div>
         </main>
       {% endblock %}
+  {% block bottom %}
+    {{ assets.js() }}
+  {% endblock %}
 
-{% block footer %}
-  
-{% endblock %}
+  {% block footer %}
+  {% include 'partials/footer.html.twig' %}
 
-{% block bottom %}
-  {{ assets.js() }}
-{% endblock %}
+  {% endblock %}
 
 </body>
 </html>
